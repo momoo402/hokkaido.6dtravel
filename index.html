@@ -1,0 +1,1133 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFFCF6">
+<meta name="color-scheme" content="light">
+<title>愛戀北海道 6 日</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Huninn&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FFFCF6; --ink:#3E3A39;
+  --coral:#F2A497; --yellow:#F6D27A; --aqua:#A8D3E6; --green:#B9DAA5;
+  --coral-l:#FCE4DE; --yellow-l:#FCF1CF; --aqua-l:#E2F1F8; --green-l:#E7F3DE;
+  --line:3px solid var(--ink); --r:28px; --nav:58px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;color-scheme:light;-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:'Huninn','Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;line-height:1.65;font-size:16px;padding-top:var(--nav);-webkit-tap-highlight-color:transparent}
+h1,h2,h3,h4{font-weight:400;line-height:1.3}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+ol,ul{list-style:none}
+svg{display:block}
+.wrap{max-width:640px;margin:0 auto;padding:0 16px}
+section{padding:28px 0 8px;scroll-margin-top:calc(var(--nav) + 4px)}
+
+/* svg helpers */
+.s{stroke:var(--ink);stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.f-coral{fill:var(--coral)}.f-yellow{fill:var(--yellow)}.f-aqua{fill:var(--aqua)}.f-green{fill:var(--green)}
+.f-aqua-l{fill:var(--aqua-l)}.f-yellow-l{fill:var(--yellow-l)}.f-coral-l{fill:var(--coral-l)}.f-white{fill:#fff}.f-paper{fill:var(--paper)}.f-ink{fill:var(--ink)}
+.nf{fill:none}
+
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;height:var(--nav);background:var(--paper);border-bottom:var(--line);z-index:50}
+.nav-in{max-width:640px;height:100%;margin:0 auto;padding:0 12px;display:flex;align-items:center;gap:10px}
+.brand{display:flex;align-items:center;gap:6px;flex:none;font-size:17px}
+.brand svg{width:34px;height:34px}
+.links{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1;justify-content:flex-end;padding:4px 2px}
+.links::-webkit-scrollbar{display:none}
+.links a{flex:none;color:var(--ink);text-decoration:none;font-size:14px;padding:3px 11px;border:2px solid transparent;border-radius:999px;transition:transform .25s cubic-bezier(.34,1.56,.64,1),background .2s}
+.links a:active{transform:scale(.92)}
+.links a.on{background:var(--yellow);border-color:var(--ink)}
+@media(min-width:520px){.links{gap:10px}.links a{font-size:15px;padding:4px 14px}}
+
+/* hero */
+.hero{padding-top:20px}
+.hero-art{border:var(--line);border-radius:var(--r);overflow:hidden;background:var(--aqua-l)}
+.hero-art svg{width:100%;height:auto}
+.hero-text{text-align:center;padding:22px 4px 6px}
+.kicker{display:inline-block;background:var(--green);border:var(--line);border-radius:999px;padding:1px 14px;font-size:14px}
+.hero h1{font-size:clamp(34px,10vw,50px);margin:12px 0 6px;letter-spacing:.04em}
+.hero h1 b{font-weight:400;background:var(--yellow);padding:0 .15em;border-radius:14px;border:var(--line);display:inline-block;transform:rotate(-3deg);margin:0 .08em}
+.sub{font-size:15px;opacity:.85}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:14px}
+.chip{border:2px solid var(--ink);border-radius:999px;padding:1px 12px;font-size:13.5px;background:#fff}
+.chip:nth-child(4n+1){background:var(--coral-l)}.chip:nth-child(4n+2){background:var(--yellow-l)}.chip:nth-child(4n+3){background:var(--aqua-l)}.chip:nth-child(4n){background:var(--green-l)}
+
+.count{margin-top:22px;background:var(--yellow-l);border:var(--line);border-radius:var(--r);padding:18px 14px 16px;text-align:center;box-shadow:0 5px 0 var(--ink)}
+.count h2{font-size:18px;margin-bottom:12px}
+.cd{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.cd div{border:var(--line);border-radius:20px;padding:8px 2px 6px;background:#fff}
+.cd div:nth-child(1){background:var(--coral)}.cd div:nth-child(2){background:var(--aqua)}.cd div:nth-child(3){background:var(--green)}.cd div:nth-child(4){background:var(--paper)}
+.cd b{display:block;font-weight:400;font-size:clamp(26px,8vw,36px);line-height:1.1;font-variant-numeric:tabular-nums}
+.cd span{font-size:12.5px}
+.cd-msg{margin-top:12px;font-size:14.5px}
+
+/* headings */
+.sec-title{display:flex;align-items:center;gap:10px;font-size:26px;margin-bottom:16px}
+.sec-title i{display:inline-block;width:14px;height:14px;border:var(--line);border-radius:50%;background:var(--coral)}
+.sec-title.y i{background:var(--yellow)}.sec-title.a i{background:var(--aqua)}.sec-title.g i{background:var(--green)}
+
+/* flight */
+.flights{display:grid;gap:18px}
+.fl{background:#fff;border:var(--line);border-radius:var(--r);padding:16px 16px 18px;box-shadow:0 5px 0 var(--ink)}
+.fl-top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:14px}
+.pill{border:2px solid var(--ink);border-radius:999px;padding:0 12px;font-size:14px;background:var(--aqua)}
+.pill.c{background:var(--coral)}
+.fl-date{font-size:15px}
+.fl-row{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center}
+.pt{text-align:center}
+.pt b{display:block;font-weight:400;font-size:30px;line-height:1.1}
+.pt span{font-size:13.5px;display:block}
+.pt em{font-style:normal;font-size:12px;opacity:.7}
+.route{position:relative;height:3px;margin:0 4px;border-top:3px dashed var(--ink)}
+.plane{position:absolute;top:-16px;left:0;width:46px;height:30px;animation:planeGo 5.5s ease-in-out infinite}
+@keyframes planeGo{from{left:0}to{left:calc(100% - 46px)}}
+.fl-info{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;font-size:14px}
+.fl-info span{border:2px solid var(--ink);border-radius:12px;padding:0 10px;background:var(--yellow-l)}
+.hint{font-size:13px;opacity:.75;margin-top:12px;text-align:center}
+
+/* itinerary */
+.tabs-wrap{position:sticky;top:var(--nav);z-index:20;background:var(--paper);padding:8px 0 10px;margin:0 -16px 8px;padding-left:16px;padding-right:16px}
+.tabs{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.tab{border:var(--line);border-radius:18px;background:#fff;padding:5px 0 4px;text-align:center;line-height:1.2;transition:background .2s,transform .2s}
+.tab b{display:block;font-weight:400;font-size:15px}
+.tab small{display:block;font-size:11px;opacity:.8}
+.tab[aria-selected=true]{background:var(--coral);animation:tabPop .55s cubic-bezier(.34,1.56,.64,1)}
+.tab:focus-visible,.tcheck input:focus-visible+.box{outline:3px solid var(--aqua);outline-offset:2px}
+@keyframes tabPop{0%{transform:scale(.8)}55%{transform:scale(1.14) translateY(-3px)}100%{transform:scale(1)}}
+.panel{outline:none}
+.panel.enter{animation:bounceIn .6s cubic-bezier(.34,1.56,.64,1)}
+@keyframes bounceIn{0%{opacity:0;transform:translateY(28px) scale(.95)}60%{opacity:1;transform:translateY(-6px) scale(1.01)}100%{transform:none}}
+.day-head{border:var(--line);border-radius:var(--r);overflow:hidden;background:#fff;box-shadow:0 5px 0 var(--ink)}
+.day-head svg{width:100%;height:auto;border-bottom:var(--line)}
+.day-head div{padding:12px 16px 14px}
+.day-head small{font-size:13.5px;background:var(--yellow);border:2px solid var(--ink);border-radius:999px;padding:0 10px}
+.day-head h3{font-size:21px;margin-top:6px}
+
+.timeline{margin:22px 0 8px}
+.timeline li{position:relative;padding:0 0 16px 48px}
+.timeline li::before{content:"";position:absolute;left:15px;top:30px;bottom:-2px;width:3px;background:var(--ink)}
+.timeline li:last-child::before{display:none}
+.dot{position:absolute;left:0;top:2px;width:33px;height:33px;border:var(--line);border-radius:50%;background:var(--aqua);display:grid;place-items:center;font-size:14px;line-height:1}
+.timeline li.must .dot{background:var(--coral)}
+.tcard{background:#fff;border:var(--line);border-radius:22px;padding:11px 14px 12px}
+.timeline li.must .tcard{background:var(--yellow-l)}
+.thead{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px}
+.thead h4{font-size:17px;flex:1 1 auto}
+.time{font-size:13px;background:var(--aqua);border:2px solid var(--ink);border-radius:999px;padding:0 9px}
+.must-badge{display:inline-flex;align-items:center;gap:3px;font-size:13px;background:var(--coral);border:2px solid var(--ink);border-radius:999px;padding:0 9px;animation:wig 2.6s ease-in-out infinite;transform-origin:center}
+.must-badge svg{width:13px;height:13px}
+@keyframes wig{0%,70%,100%{transform:rotate(0)}78%{transform:rotate(-6deg)}86%{transform:rotate(6deg)}94%{transform:rotate(-3deg)}}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+.tag{font-size:12.5px;border:2px solid var(--ink);border-radius:999px;padding:0 10px;line-height:1.55}
+.tag.coral{background:var(--coral)}.tag.yellow{background:var(--yellow)}.tag.aqua{background:var(--aqua)}.tag.green{background:var(--green)}
+.tcard p{font-size:14.5px;margin-top:6px}
+.tcard p.note{font-size:13px;background:var(--coral-l);border-radius:12px;padding:4px 10px;margin-top:8px}
+
+.meals{background:var(--green-l);border:var(--line);border-radius:var(--r);padding:12px 16px 14px;margin-top:6px}
+.meals h4,.dstay h4{font-size:17px;margin-bottom:6px}
+.meals dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:14.5px;align-items:start}
+.meals dt{border:2px solid var(--ink);border-radius:999px;background:#fff;padding:0 10px;font-size:13px;text-align:center}
+.dstay{background:var(--aqua-l);border:var(--line);border-radius:var(--r);padding:12px 16px 14px;margin-top:14px;font-size:14.5px}
+
+/* todo */
+.prog{background:#fff;border:var(--line);border-radius:var(--r);padding:14px 16px;box-shadow:0 5px 0 var(--ink);margin-bottom:18px}
+.prog-top{display:flex;justify-content:space-between;align-items:center;font-size:15px;margin-bottom:8px}
+.bar{height:20px;border:var(--line);border-radius:999px;background:var(--paper);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--green);border-right:var(--line);border-radius:0 999px 999px 0;transition:width .5s cubic-bezier(.34,1.56,.64,1)}
+.bar i[style*="width:0%"]{border-right:0}
+.reset{font-size:13px;border:2px solid var(--ink);border-radius:999px;padding:0 12px;background:var(--yellow-l)}
+.tgroup{margin-bottom:16px}
+.tgroup h3{font-size:18px;margin:0 0 8px 4px}
+.tlist{display:grid;gap:8px}
+.tcheck{display:flex;gap:12px;align-items:center;background:#fff;border:var(--line);border-radius:20px;padding:9px 12px;cursor:pointer;transition:background .2s}
+.tcheck input{position:absolute;opacity:0;width:1px;height:1px}
+.box{flex:none;width:28px;height:28px;border:var(--line);border-radius:10px;background:var(--paper);display:grid;place-items:center;transition:background .2s,transform .3s cubic-bezier(.34,1.56,.64,1)}
+.box svg{width:18px;height:18px;opacity:0;transform:scale(.3);transition:opacity .15s,transform .3s cubic-bezier(.34,1.56,.64,1)}
+.tcheck input:checked+.box{background:var(--green);transform:scale(1.08)}
+.tcheck input:checked+.box svg{opacity:1;transform:scale(1)}
+.tcheck input:checked~.txt{text-decoration:line-through;opacity:.55}
+.tcheck:has(input:checked){background:var(--green-l)}
+.txt{font-size:15px;line-height:1.45}
+
+/* stay */
+.stays{display:grid;gap:16px}
+.stay{background:#fff;border:var(--line);border-radius:var(--r);padding:14px 16px 16px;box-shadow:0 5px 0 var(--ink);position:relative}
+.stay:nth-child(5n+1){background:var(--coral-l)}.stay:nth-child(5n+2){background:var(--yellow-l)}.stay:nth-child(5n+3){background:var(--aqua-l)}.stay:nth-child(5n+4){background:var(--green-l)}
+.stay-top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.night{border:2px solid var(--ink);border-radius:999px;background:#fff;padding:0 12px;font-size:13.5px}
+.city{font-size:20px}
+.stay svg.on{position:absolute;right:14px;top:10px;width:44px;height:44px}
+.stay ul{margin:6px 0 8px}
+.stay li{font-size:15.5px;padding-left:22px;position:relative}
+.stay li::before{content:"";position:absolute;left:2px;top:.55em;width:11px;height:11px;border:2px solid var(--ink);border-radius:50%;background:var(--coral)}
+.stay p{font-size:14px;opacity:.9}
+.stay .tag{margin-top:8px;display:inline-block;background:#fff}
+
+footer{text-align:center;padding:30px 16px 46px;font-size:14px}
+footer svg{width:90px;margin:0 auto 8px}
+footer p{opacity:.8}
+
+/* views */
+.view[hidden]{display:none}
+.view{padding-bottom:44px}
+.view.vin{animation:bounceIn .55s cubic-bezier(.34,1.56,.64,1)}
+.addform{display:grid;grid-template-columns:1fr auto;gap:8px;background:var(--yellow-l);border:var(--line);border-radius:var(--r);padding:12px;margin-bottom:18px}
+.addform input{font:inherit;font-size:15px;color:var(--ink);background:#fff;border:var(--line);border-radius:18px;padding:7px 14px;min-width:0;width:100%}
+.addform input:focus-visible{outline:3px solid var(--aqua);outline-offset:2px}
+.addform .g{grid-column:1/-1;display:flex;align-items:center;gap:8px;font-size:14px}
+.addform .g input{flex:1}
+.addbtn{border:var(--line);border-radius:18px;background:var(--coral);padding:0 18px;font-size:15px;transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.addbtn:active{transform:scale(.92)}
+.titem{display:flex;gap:8px;align-items:stretch}
+.titem .tcheck{flex:1;min-width:0}
+.del{flex:none;width:46px;border:var(--line);border-radius:20px;background:var(--coral-l);display:grid;place-items:center;transition:transform .25s cubic-bezier(.34,1.56,.64,1),background .2s}
+.del:active{transform:scale(.88);background:var(--coral)}
+.del svg{width:16px;height:16px}
+.del:focus-visible,.addbtn:focus-visible,.reset:focus-visible{outline:3px solid var(--aqua);outline-offset:2px}
+.empty{text-align:center;font-size:15px;border:3px dashed var(--ink);border-radius:var(--r);padding:22px 12px;background:#fff}
+.titem.pop{animation:bounceIn .5s cubic-bezier(.34,1.56,.64,1)}
+.addform select{font:inherit;font-size:15px;color:var(--ink);background:#fff;border:var(--line);border-radius:18px;padding:7px 14px;min-width:0;width:100%;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M4 7l6 6 6-6' fill='none' stroke='%233E3A39' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;background-size:18px;padding-right:40px}
+.addform select:focus-visible{outline:3px solid var(--aqua);outline-offset:2px}
+.addform .row{grid-column:1/-1;display:grid;gap:4px;font-size:14px}
+.addform .row[hidden]{display:none}
+.toolbar{display:flex;justify-content:flex-end;margin:-6px 0 14px}
+.modal{position:fixed;inset:0;z-index:100;background:rgba(62,58,57,.4);display:grid;place-items:center;padding:20px}
+.modal[hidden]{display:none}
+.mbox{width:100%;max-width:340px;background:var(--paper);border:var(--line);border-radius:var(--r);padding:20px 18px 18px;text-align:center;box-shadow:0 5px 0 var(--ink);animation:bounceIn .45s cubic-bezier(.34,1.56,.64,1)}
+.mbox h3{font-size:20px;margin-bottom:8px}
+.mbox p{font-size:15px;background:var(--yellow-l);border:2px solid var(--ink);border-radius:16px;padding:6px 12px;margin-bottom:16px;word-break:break-word}
+.mbtn{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mbtn button{border:var(--line);border-radius:18px;padding:7px 0;font-size:16px;background:#fff;transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.mbtn button:active{transform:scale(.93)}
+.mbtn #m-yes{background:var(--coral)}
+.mbtn button:focus-visible{outline:3px solid var(--aqua);outline-offset:2px}
+/* clickable stop card + detail sheet */
+.tcard[data-k]{cursor:pointer;position:relative;transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.tcard[data-k]:active{transform:scale(.97)}
+.tcard[data-k]:focus-visible{outline:3px solid var(--aqua);outline-offset:3px}
+.more-hint{display:inline-block;margin-top:9px;font-size:12.5px;border:2px solid var(--ink);border-radius:999px;padding:0 11px;background:var(--aqua-l)}
+.sheetwrap{position:fixed;inset:0;z-index:90;background:rgba(62,58,57,.4);display:flex;align-items:flex-end;justify-content:center}
+.sheetwrap[hidden]{display:none}
+.sheet{width:100%;max-width:640px;max-height:90vh;max-height:90dvh;overflow-y:auto;overscroll-behavior:contain;background:var(--paper);border:var(--line);border-bottom:0;border-radius:var(--r) var(--r) 0 0;animation:sheetUp .5s cubic-bezier(.34,1.4,.64,1)}
+@keyframes sheetUp{from{transform:translateY(100%)}to{transform:none}}
+@media(min-width:640px){.sheetwrap{align-items:center;padding:20px}.sheet{border-bottom:var(--line);border-radius:var(--r);max-height:86vh}}
+.sh-bar{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:10px 14px 8px;background:var(--paper);border-bottom:var(--line)}
+.sh-bar small{font-size:13.5px;background:var(--yellow);border:2px solid var(--ink);border-radius:999px;padding:0 10px}
+.sh-x{width:38px;height:38px;border:var(--line);border-radius:50%;background:var(--coral-l);display:grid;place-items:center;transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.sh-x:active{transform:scale(.88)}
+.sh-x svg{width:16px;height:16px}
+.sh-x:focus-visible,.sh-nav button:focus-visible,.mapbtn:focus-visible{outline:3px solid var(--aqua);outline-offset:2px}
+.sh-body{padding:16px 16px 22px}
+.sh-body h3{font-size:24px;margin:10px 0 12px}
+.sh-body p.m{font-size:15.5px;margin-bottom:10px}
+.sh-sec{margin-top:16px}
+.sh-sec h4{font-size:17px;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.sh-sec h4 i{display:inline-block;width:12px;height:12px;border:var(--line);border-radius:50%;background:var(--green)}
+.sh-sec.tip h4 i{background:var(--coral)}
+.sh-sec ul{display:grid;gap:7px}
+.sh-sec li{position:relative;font-size:15px;padding:5px 12px 5px 34px;background:#fff;border:2px solid var(--ink);border-radius:16px}
+.sh-sec li::before{content:"";position:absolute;left:12px;top:.78em;width:11px;height:11px;border:2px solid var(--ink);border-radius:50%;background:var(--green)}
+.sh-sec.tip li{background:var(--coral-l)}
+.sh-sec.tip li::before{background:var(--coral)}
+.maps{display:grid;gap:8px;margin-top:18px}
+.mapbtn{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;color:var(--ink);font-size:16px;border:var(--line);border-radius:22px;background:var(--aqua);padding:9px 14px;box-shadow:0 4px 0 var(--ink);transition:transform .25s cubic-bezier(.34,1.56,.64,1),box-shadow .2s}
+.mapbtn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--ink)}
+.mapbtn svg{width:20px;height:20px;flex:none}
+.mapnote{font-size:12.5px;opacity:.7;text-align:center;margin-top:10px}
+.sh-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.sh-nav button{border:var(--line);border-radius:18px;background:#fff;padding:7px 0;font-size:15px;transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.sh-nav button:active{transform:scale(.94)}
+.sh-nav button:disabled{opacity:.35;cursor:default}
+.stay li{padding-left:0}
+.stay li::before{display:none}
+.hotelbtn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;text-align:left;font-size:15.5px;line-height:1.4;background:#fff;border:2px solid var(--ink);border-radius:16px;padding:6px 12px;transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.hotelbtn:active{transform:scale(.97)}
+.hotelbtn:focus-visible{outline:3px solid var(--aqua);outline-offset:2px}
+.hotelbtn small{flex:none;font-size:12px;background:var(--aqua-l);border:2px solid var(--ink);border-radius:999px;padding:0 8px;white-space:nowrap}
+.stay ul{display:grid;gap:8px}
+.rvlist{display:grid;gap:8px}
+.rvitem{display:grid;gap:3px;text-decoration:none;color:var(--ink);background:#fff;border:2px solid var(--ink);border-radius:18px;padding:8px 12px;transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.rvitem:active{transform:scale(.97)}
+.rvitem:focus-visible,.rvmore a:focus-visible{outline:3px solid var(--aqua);outline-offset:2px}
+.rvitem b{font-weight:400;font-size:15.5px;line-height:1.4}
+.rvtop{display:flex;align-items:center;gap:8px}
+.rvtop small{font-size:12px;opacity:.7}
+.rvn{font-size:13.5px;opacity:.85}
+.src{font-size:12px;border:2px solid var(--ink);border-radius:999px;padding:0 9px;line-height:1.5}
+.src.aqua{background:var(--aqua)}.src.green{background:var(--green)}.src.coral{background:var(--coral)}.src.yellow{background:var(--yellow)}
+.rvempty{font-size:14px;background:#fff;border:2px dashed var(--ink);border-radius:16px;padding:8px 12px}
+.rvmore{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:10px;font-size:13.5px}
+.rvmore a{color:var(--ink);text-decoration:none;border:2px solid var(--ink);border-radius:999px;padding:0 12px;background:var(--yellow-l);transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.rvmore a:active{transform:scale(.92)}
+/* photo & buy */
+.ico{display:inline-block;width:13px;height:13px;vertical-align:-2px;margin-right:3px}
+.tag.photo{background:var(--yellow)}
+.tag.buy{background:var(--coral-l)}
+.mini{display:block;width:100%;height:auto;border:var(--line);border-radius:20px;margin-bottom:14px}
+.sh-sec.photo h4 i{background:var(--yellow)}
+.sh-sec.buy h4 i{background:var(--aqua)}
+.sh-sec.photo li::before{background:var(--yellow)}
+.sh-sec.buy li::before{background:var(--aqua)}
+.sh-sec.buy li b{font-weight:400;display:block}
+.sh-sec.buy li span{display:block;font-size:13.5px;opacity:.85}
+.ptip{margin-top:8px;font-size:14px;background:var(--yellow-l);border:2px solid var(--ink);border-radius:14px;padding:6px 12px}
+.dsum{margin-top:14px;background:var(--yellow-l);border:var(--line);border-radius:var(--r);padding:12px 14px 10px}
+.sumrow{display:grid;gap:6px;margin-bottom:10px}
+.sumlab{font-size:16px;display:flex;align-items:center;gap:4px}
+.sumchips{display:flex;flex-wrap:wrap;gap:6px}
+.sumchip{font-size:13.5px;border:2px solid var(--ink);border-radius:999px;padding:0 11px;background:#fff;transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.sumchip:active{transform:scale(.92)}
+.sumchip:focus-visible{outline:3px solid var(--aqua);outline-offset:2px}
+.sumhint{font-size:12.5px;opacity:.7}
+.rank{margin-top:22px;background:#fff;border:var(--line);border-radius:var(--r);box-shadow:0 5px 0 var(--ink);overflow:hidden}
+.rank summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 16px;background:var(--coral-l);font-size:18px}
+.rank summary::-webkit-details-marker{display:none}
+.rank summary small{font-size:12.5px;border:2px solid var(--ink);border-radius:999px;padding:0 9px;background:#fff}
+.rank summary:focus-visible{outline:3px solid var(--aqua);outline-offset:-3px}
+.rank[open] summary{border-bottom:var(--line)}
+.rank-in{padding:14px 14px 16px}
+.rk-top{display:flex;justify-content:space-between;align-items:center;font-size:15px;margin-bottom:10px}
+.rk-h{font-size:17px;font-weight:400;margin:12px 0 8px}
+.tcheck.rk .txt b{display:block;font-weight:400}
+.rk-w{display:block;font-size:13px;color:var(--ink);opacity:.8}
+.rk-n{display:block;font-size:13.5px}
+.rkb{display:grid;gap:8px}
+.rkbi{border:2px solid var(--ink);border-radius:16px;padding:6px 12px;background:var(--aqua-l);display:grid;gap:1px}
+.rkbi b{font-weight:400}
+.rkbi span{font-size:14px}
+.rkbi small{font-size:12.5px;opacity:.8}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+
+/* svg animations */
+.bob{animation:bob 3.6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-6px)}}
+.drift{animation:drift 9s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translateX(26px)}}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 2.4s ease-in-out infinite}
+@keyframes tw{50%{transform:scale(.45) rotate(25deg);opacity:.6}}
+.gondola{animation:ride 7s ease-in-out infinite alternate}
+@keyframes ride{to{transform:translate(var(--dx),var(--dy))}}
+.waves{animation:wave 3s linear infinite}
+@keyframes wave{to{transform:translateX(40px)}}
+.train{animation:run 16s linear infinite}
+@keyframes run{from{transform:translateX(-270px)}to{transform:translateX(300px)}}
+.wave-arm{transform-box:fill-box;transform-origin:50% 90%;animation:waveArm 1.3s ease-in-out infinite alternate}
+@keyframes waveArm{from{transform:rotate(-8deg)}to{transform:rotate(24deg)}}
+.rise{animation:rise 3s ease-out infinite}
+@keyframes rise{from{transform:translateY(8px);opacity:1}to{transform:translateY(-16px);opacity:0}}
+.waddle{transform-box:fill-box;transform-origin:50% 100%;animation:waddle 1s ease-in-out infinite alternate}
+@keyframes waddle{from{transform:rotate(-7deg)}to{transform:rotate(7deg)}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 3s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.swim{animation:swim 6s ease-in-out infinite alternate}
+@keyframes swim{to{transform:translateX(70px)}}
+.sway{transform-box:fill-box;transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-7deg)}to{transform:rotate(7deg)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.35)}}
+.fly{animation:fly 8s linear infinite}
+@keyframes fly{from{transform:translateX(-90px)}to{transform:translateX(400px)}}
+</style>
+</head>
+<body>
+
+<!-- shared symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="plane" viewBox="0 0 64 40">
+      <path d="M26 24 L16 37 L32 37 L44 24 Z" class="s f-aqua"/>
+      <path d="M8 17 L3 5 L16 5 L24 17 Z" class="s f-coral"/>
+      <rect x="6" y="15" width="54" height="12" rx="6" class="s f-white"/>
+      <circle cx="49" cy="21" r="2.4" fill="#3E3A39"/>
+      <circle cx="40" cy="21" r="2.4" fill="#3E3A39"/>
+    </symbol>
+    <symbol id="star" viewBox="-10 -10 20 20">
+      <path d="M0 -8 L2.6 -2.6 L8 0 L2.6 2.6 L0 8 L-2.6 2.6 L-8 0 L-2.6 -2.6 Z" class="s f-yellow" stroke-width="2"/>
+    </symbol>
+    <symbol id="onsen" viewBox="0 0 48 48">
+      <path d="M6 28 H42 Q42 42 24 42 Q6 42 6 28 Z" class="s f-aqua"/>
+      <path d="M16 22 Q12 17 16 12 Q20 7 16 3" class="s nf" stroke-width="2.6"/>
+      <path d="M26 22 Q22 17 26 12 Q30 7 26 3" class="s nf" stroke-width="2.6"/>
+      <path d="M36 22 Q32 17 36 12" class="s nf" stroke-width="2.6"/>
+    </symbol>
+    <symbol id="city" viewBox="0 0 48 48">
+      <rect x="5" y="18" width="16" height="26" rx="3" class="s f-aqua"/>
+      <rect x="24" y="8" width="19" height="36" rx="3" class="s f-yellow"/>
+      <path d="M10 26h6M10 33h6M29 17h9M29 25h9M29 33h9" class="s nf" stroke-width="2.4"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="#home" style="text-decoration:none;color:inherit" aria-label="回到首頁">
+      <svg viewBox="-20 -20 40 40" aria-hidden="true">
+        <circle cx="-12" cy="-11" r="6.5" class="s f-yellow" stroke-width="2.4"/><circle cx="12" cy="-11" r="6.5" class="s f-yellow" stroke-width="2.4"/>
+        <circle r="15" class="s f-yellow" stroke-width="2.4"/>
+        <ellipse cy="4" rx="7.5" ry="5.5" class="s f-paper" stroke-width="2"/>
+        <ellipse cy="1.5" rx="2.6" ry="1.9" class="f-ink"/>
+        <circle cx="-6.5" cy="-4" r="1.8" class="f-ink"/><circle cx="6.5" cy="-4" r="1.8" class="f-ink"/>
+      </svg>
+      <span>北海道</span>
+    </a>
+    <nav class="links" aria-label="頁面選單">
+      <a href="#home" class="on">首頁</a>
+      <a href="#flight">航班</a>
+      <a href="#itinerary">行程</a>
+      <a href="#todo">待辦</a>
+      <a href="#stay">住宿</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- HOME -->
+<section id="home" class="hero view">
+  <div class="hero-art">
+    <svg viewBox="0 0 360 280" role="img" aria-label="函館山纜車、秋色山丘、漁火鐵道與揮手的可愛小熊插圖">
+      <rect width="360" height="280" class="f-aqua-l"/>
+      <!-- sparkles -->
+      <g transform="translate(40 108)"><use href="#star" class="tw" width="20" height="20" x="-10" y="-10"/></g>
+      <g transform="translate(215 42)"><use href="#star" class="tw" width="16" height="16" x="-8" y="-8" style="animation-delay:.8s"/></g>
+      <g transform="translate(168 78)"><use href="#star" class="tw" width="14" height="14" x="-7" y="-7" style="animation-delay:1.5s"/></g>
+      <!-- sun -->
+      <g transform="translate(298 56)"><g class="bob">
+        <circle r="27" class="s f-yellow"/>
+        <circle cx="-8" cy="-3" r="2.6" class="f-ink"/><circle cx="8" cy="-3" r="2.6" class="f-ink"/>
+        <path d="M-7 6 Q0 13 7 6" class="s nf" stroke-width="2.4"/>
+      </g></g>
+      <!-- clouds -->
+      <g transform="translate(14 22)"><g class="drift"><path d="M20 46 q-16 0 -16 -13 q0 -13 17 -13 q5 -15 24 -13 q17 -1 22 14 q16 1 16 12 q0 13 -16 13 z" class="s f-white"/></g></g>
+      <g transform="translate(196 14) scale(.68)"><g class="drift" style="animation-duration:12s"><path d="M20 46 q-16 0 -16 -13 q0 -13 17 -13 q5 -15 24 -13 q17 -1 22 14 q16 1 16 12 q0 13 -16 13 z" class="s f-white"/></g></g>
+      <!-- Mt. Hakodate -->
+      <path d="M-10 214 Q50 98 125 96 Q200 98 262 214 Z" class="s f-green"/>
+      <rect x="116" y="80" width="18" height="16" rx="4" class="s f-coral"/>
+      <circle cx="104" cy="150" r="3" class="f-yellow"/><circle cx="148" cy="160" r="3" class="f-yellow"/><circle cx="128" cy="185" r="3" class="f-yellow"/><circle cx="84" cy="190" r="3" class="f-yellow"/><circle cx="175" cy="188" r="3" class="f-yellow"/>
+      <!-- ropeway -->
+      <path d="M40 172 L118 96" class="s nf" stroke-width="2.6"/>
+      <rect x="30" y="170" width="14" height="14" rx="3" class="s f-yellow"/>
+      <g class="gondola" style="--dx:78px;--dy:-76px"><path d="M40 172 v8" class="s" stroke-width="2.6"/><rect x="30" y="180" width="20" height="15" rx="5" class="s f-coral"/><rect x="35" y="185" width="10" height="5" rx="2" class="f-white"/></g>
+      <!-- autumn hill -->
+      <path d="M190 216 Q252 140 322 150 Q354 156 372 192 L372 216 Z" class="s f-yellow"/>
+      <circle cx="268" cy="168" r="9" class="s f-coral" stroke-width="2.6"/><circle cx="296" cy="158" r="9" class="s f-coral" stroke-width="2.6"/><circle cx="322" cy="170" r="9" class="s f-green" stroke-width="2.6"/>
+      <!-- sea -->
+      <rect y="214" width="360" height="66" class="f-aqua"/>
+      <path d="M0 214 H360" class="s"/>
+      <g class="waves"><path d="M-40 238 q10 -8 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" class="s nf" stroke-width="2.4"/></g>
+      <g class="waves" style="animation-duration:4s"><path d="M-30 262 q10 -8 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" class="s nf" stroke-width="2.4"/></g>
+      <!-- fishing-light train -->
+      <g transform="translate(120 0)"><g class="train">
+        <path d="M-6 213 H110" class="s nf"/>
+        <rect x="0" y="188" width="100" height="22" rx="8" class="s f-coral"/>
+        <rect x="9" y="194" width="14" height="9" rx="3" class="s f-aqua-l" stroke-width="2"/>
+        <rect x="31" y="194" width="14" height="9" rx="3" class="s f-aqua-l" stroke-width="2"/>
+        <rect x="53" y="194" width="14" height="9" rx="3" class="s f-aqua-l" stroke-width="2"/>
+        <circle cx="90" cy="199" r="4" class="s f-yellow" stroke-width="2.4"/>
+        <circle cx="20" cy="212" r="5" class="s f-yellow" stroke-width="2.4"/><circle cx="80" cy="212" r="5" class="s f-yellow" stroke-width="2.4"/>
+      </g></g>
+      <!-- bubble -->
+      <g class="bob" style="animation-duration:4.4s">
+        <rect x="168" y="232" width="100" height="30" rx="15" class="s f-paper"/>
+        <path d="M262 258 l14 8 l-4 -14" class="s f-paper"/>
+        <text x="218" y="253" text-anchor="middle" font-size="15" class="f-ink" style="font-family:inherit">ようこそ！</text>
+      </g>
+      <!-- bear -->
+      <g transform="translate(304 262)"><g class="bob" style="animation-duration:2.8s">
+        <ellipse cy="34" rx="42" ry="30" class="s f-yellow"/>
+        <circle cx="-24" cy="-23" r="10" class="s f-yellow"/><circle cx="24" cy="-23" r="10" class="s f-yellow"/>
+        <circle cx="-24" cy="-23" r="4.5" class="f-coral"/><circle cx="24" cy="-23" r="4.5" class="f-coral"/>
+        <circle cy="-4" r="30" class="s f-yellow"/>
+        <ellipse cy="7" rx="14" ry="10" class="s f-paper" stroke-width="2.6"/>
+        <ellipse cy="2" rx="4.6" ry="3.3" class="f-ink"/>
+        <circle cx="-11" cy="-11" r="3.2" class="f-ink"/><circle cx="11" cy="-11" r="3.2" class="f-ink"/>
+        <circle cx="-21" cy="2" r="5" class="f-coral"/><circle cx="21" cy="2" r="5" class="f-coral"/>
+        <path d="M-5 10 Q0 14 5 10" class="s nf" stroke-width="2.4"/>
+        <g class="wave-arm"><ellipse cx="-44" cy="24" rx="9" ry="15" class="s f-yellow"/></g>
+      </g></g>
+    </svg>
+  </div>
+
+  <div class="hero-text">
+    <span class="kicker">2026/11/04 – 11/09 ・ 函館進／千歲出</span>
+    <h1>愛戀<b>北海道</b>6日</h1>
+    <p class="sub">函館夜景、熊牧場、漁火鐵道、水族館與螃蟹，一次收進行李箱</p>
+    <div class="chips" aria-label="行程亮點">
+      <span class="chip">函館百萬夜景</span><span class="chip">卡哇伊熊牧場</span><span class="chip">漁火鐵道</span>
+      <span class="chip">AOAO 水族館</span><span class="chip">藻岩山纜車</span><span class="chip">三大螃蟹吃到飽</span>
+    </div>
+  </div>
+
+  <div class="count" role="timer" aria-live="off">
+    <h2 id="cd-title">距離出發還有</h2>
+    <div class="cd">
+      <div><b id="cd-d">--</b><span>天</span></div>
+      <div><b id="cd-h">--</b><span>小時</span></div>
+      <div><b id="cd-m">--</b><span>分鐘</span></div>
+      <div><b id="cd-s">--</b><span>秒</span></div>
+    </div>
+    <p class="cd-msg" id="cd-msg">11/04 09:30 桃園機場集合，12:00 起飛</p>
+  </div>
+</section>
+
+<!-- FLIGHT -->
+<section id="flight" class="view" hidden>
+  <h2 class="sec-title a"><i></i>航班資訊</h2>
+  <div class="flights">
+    <article class="fl">
+      <div class="fl-top"><span class="pill">去程 ・ DAY 1</span><span class="fl-date">11/04（三）</span></div>
+      <div class="fl-row">
+        <div class="pt"><b>12:00</b><span>桃園</span><em>TPE</em></div>
+        <div class="route" aria-hidden="true"><svg class="plane" viewBox="0 0 64 40"><use href="#plane"/></svg></div>
+        <div class="pt"><b>16:30</b><span>函館</span><em>HKD</em></div>
+      </div>
+      <div class="fl-info"><span>星宇航空</span><span>JX860</span><span>經濟艙</span><span>09:30 桃園T1 7號櫃台集合</span></div>
+    </article>
+    <article class="fl">
+      <div class="fl-top"><span class="pill c">回程 ・ DAY 6</span><span class="fl-date">11/09（一）</span></div>
+      <div class="fl-row">
+        <div class="pt"><b>15:20</b><span>新千歲</span><em>CTS</em></div>
+        <div class="route" aria-hidden="true"><svg class="plane" viewBox="0 0 64 40" style="animation-delay:-2.5s"><use href="#plane"/></svg></div>
+        <div class="pt"><b>19:05</b><span>桃園</span><em>TPE</em></div>
+      </div>
+      <div class="fl-info"><span>星宇航空</span><span>JX851</span><span>經濟艙</span></div>
+    </article>
+  </div>
+  <p class="hint">以上為參考航班，實際以最終確認為準。起降時間皆為當地時間。</p>
+</section>
+
+<!-- ITINERARY -->
+<section id="itinerary" class="view" hidden>
+  <h2 class="sec-title"><i></i>每日行程</h2>
+  <div class="tabs-wrap">
+    <div class="tabs" role="tablist" aria-label="選擇日期" id="tabs"></div>
+  </div>
+  <div id="panel" class="panel" role="tabpanel" tabindex="-1"></div>
+  <p class="hint">行程為景點安排順序，實際時間以當日領隊通知為準。</p>
+  <details class="rank" id="rank">
+    <summary><span>北海道必買商品排行榜</span><small>A 級 10 項可打勾</small></summary>
+    <div class="rank-in" id="rank-in"></div>
+  </details>
+</section>
+
+<!-- TODO -->
+<section id="todo" class="view" hidden>
+  <h2 class="sec-title g"><i></i>出發前待辦</h2>
+  <form class="addform" id="addform" autocomplete="off">
+    <label class="row">分類
+      <select id="add-g" aria-label="分類"></select>
+    </label>
+    <label class="row" id="add-c-row" hidden>自訂分類名稱
+      <input id="add-c" type="text" maxlength="10" placeholder="例如：伴手禮" aria-label="自訂分類名稱">
+    </label>
+    <input id="add-t" type="text" placeholder="新增待辦事項…" maxlength="60" required aria-label="待辦事項內容">
+    <button class="addbtn" type="submit">新增</button>
+  </form>
+  <div class="toolbar"><button class="reset" id="reset" type="button">取消全部勾選</button></div>
+  <div id="todos"></div>
+</section>
+
+<!-- STAY -->
+<section id="stay" class="view" hidden>
+  <h2 class="sec-title y"><i></i>住宿資訊</h2>
+  <div class="stays" id="stays"></div>
+  <p class="hint">點飯店名稱可看介紹與 Google 地圖。實際入住飯店以出發前通知為準。</p>
+</section>
+
+</main>
+
+<footer>
+  <svg viewBox="0 0 90 60" aria-hidden="true">
+    <path d="M6 56 Q22 10 45 10 Q68 10 84 56 Z" class="s f-green"/>
+    <g transform="translate(66 18)"><use href="#star" width="16" height="16" x="-8" y="-8" class="tw"/></g>
+    <circle cx="45" cy="34" r="7" class="s f-coral" stroke-width="2.4"/>
+  </svg>
+  <p>旅途愉快，記得多穿一件外套 ♡</p>
+  <p>行程內容依規劃整理，若有異動以最終通知為準。</p>
+</footer>
+
+<div class="sheetwrap" id="sheetwrap" hidden>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-title">
+    <div class="sh-bar"><small id="sh-day"></small><button type="button" class="sh-x" id="sh-x" aria-label="關閉"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5 L15 15 M15 5 L5 15" class="s nf" stroke-width="3.2"/></svg></button></div>
+    <div class="sh-body" id="sh-body"></div>
+  </div>
+</div>
+
+<div class="modal" id="modal" hidden>
+  <div class="mbox" role="alertdialog" aria-modal="true" aria-labelledby="m-title">
+    <h3 id="m-title">確定要刪除嗎？</h3>
+    <p id="m-txt"></p>
+    <div class="mbtn"><button type="button" id="m-no">先不要</button><button type="button" id="m-yes">刪除</button></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)');
+  var STAR = '<use href="#star" width="16" height="16" x="-8" y="-8" class="tw"/>';
+
+  /* ---------- 每日插圖 ---------- */
+  var ILL = [
+    // Day 1 函館夜景
+    '<svg viewBox="0 0 320 120" role="img" aria-label="函館山纜車與夜景插圖"><rect width="320" height="120" class="f-aqua-l"/>' +
+    '<g transform="translate(266 30)"><g class="bob"><circle r="16" class="s f-yellow"/><circle cx="-5" cy="-3" r="2.5" class="f-ink"/><circle cx="5" cy="-3" r="2.5" class="f-ink"/><path d="M-5 5 Q0 10 5 5" class="s nf" stroke-width="2.2"/></g></g>' +
+    '<g transform="translate(40 26)">' + STAR + '</g><g transform="translate(210 20)">' + STAR + '</g><g transform="translate(120 12)">' + STAR + '</g>' +
+    '<path d="M-10 124 Q80 28 165 38 Q250 48 330 124 Z" class="s f-green"/>' +
+    '<path d="M62 100 L150 44" class="s nf" stroke-width="2.5"/>' +
+    '<g class="gondola" style="--dx:88px;--dy:-56px"><path d="M62 100 v7" class="s" stroke-width="2.5"/><rect x="52" y="107" width="20" height="14" rx="5" class="s f-coral"/></g>' +
+    '<g class="f-yellow"><circle class="tw" cx="190" cy="92" r="3"/><circle class="tw" cx="215" cy="100" r="3" style="animation-delay:.5s"/><circle class="tw" cx="240" cy="106" r="3" style="animation-delay:1s"/><circle class="tw" cx="170" cy="104" r="3" style="animation-delay:1.4s"/><circle class="tw" cx="262" cy="112" r="3" style="animation-delay:.2s"/><circle class="tw" cx="196" cy="112" r="3" style="animation-delay:.9s"/><circle class="tw" cx="30" cy="112" r="3" style="animation-delay:.3s"/></g></svg>',
+    // Day 2 火山與湖
+    '<svg viewBox="0 0 320 120" role="img" aria-label="昭和新山與洞爺湖插圖"><rect width="320" height="120" class="f-aqua-l"/>' +
+    '<g transform="translate(40 34)"><g class="drift"><path d="M20 30 q-14 0 -14 -11 q0 -11 15 -11 q4 -12 20 -11 q15 -1 19 12 q14 1 14 10 q0 11 -14 11 z" class="s f-white"/></g></g>' +
+    '<path d="M110 100 L158 28 L186 32 L240 100 Z" class="s f-coral"/>' +
+    '<g class="f-white"><circle class="s rise" cx="164" cy="22" r="8"/><circle class="s rise" cx="178" cy="14" r="6" style="animation-delay:1s"/><circle class="s rise" cx="170" cy="8" r="5" style="animation-delay:2s"/></g>' +
+    '<path d="M214 100 Q270 56 330 76 L330 100 Z" class="s f-yellow"/>' +
+    '<rect y="92" width="320" height="28" class="f-aqua"/><path d="M0 92 H320" class="s"/>' +
+    '<path d="M44 96 Q64 80 86 96 Z" class="s f-green"/>' +
+    '<g class="waves"><path d="M-40 108 q10 -7 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" class="s nf" stroke-width="2.3"/></g></svg>',
+    // Day 3 企鵝・忍者・地獄谷
+    '<svg viewBox="0 0 320 120" role="img" aria-label="企鵝、忍者手裏劍與地獄谷蒸氣插圖"><rect width="320" height="120" class="f-yellow-l"/>' +
+    '<rect y="98" width="320" height="22" class="f-green"/><path d="M0 98 H320" class="s"/>' +
+    '<g class="f-white"><circle class="s rise" cx="46" cy="88" r="9"/><circle class="s rise" cx="64" cy="80" r="7" style="animation-delay:1s"/><circle class="s rise" cx="52" cy="70" r="6" style="animation-delay:2s"/></g>' +
+    '<g class="waddle"><ellipse cx="160" cy="68" rx="25" ry="32" class="s f-ink"/><ellipse cx="160" cy="76" rx="15" ry="23" class="f-paper"/>' +
+    '<circle cx="152" cy="52" r="3" class="f-paper"/><circle cx="168" cy="52" r="3" class="f-paper"/><circle cx="152" cy="52" r="1.4" class="f-ink"/><circle cx="168" cy="52" r="1.4" class="f-ink"/>' +
+    '<path d="M154 58 L166 58 L160 66 Z" class="s f-yellow" stroke-width="2"/><ellipse cx="146" cy="100" rx="9" ry="4" class="s f-yellow" stroke-width="2.4"/><ellipse cx="174" cy="100" rx="9" ry="4" class="s f-yellow" stroke-width="2.4"/>' +
+    '<circle cx="186" cy="82" r="5" class="f-coral"/></g>' +
+    '<g transform="translate(262 52)"><path class="spin s f-coral" d="M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6 Z"/><circle r="4" class="s f-paper" stroke-width="2"/></g>' +
+    '<g transform="translate(110 22)">' + STAR + '</g></svg>',
+    // Day 4 水族館與螃蟹
+    '<svg viewBox="0 0 320 120" role="img" aria-label="魚、螃蟹與海草的水族館插圖"><rect width="320" height="120" class="f-aqua"/>' +
+    '<rect y="100" width="320" height="20" class="f-yellow-l"/><path d="M0 100 H320" class="s"/>' +
+    '<g class="swim"><ellipse cx="60" cy="38" rx="22" ry="14" class="s f-yellow"/><path d="M36 38 L22 28 L22 48 Z" class="s f-coral"/><circle cx="72" cy="34" r="2.6" class="f-ink"/></g>' +
+    '<g class="swim" style="animation-duration:8s;animation-delay:-3s"><ellipse cx="120" cy="70" rx="16" ry="10" class="s f-coral"/><path d="M104 70 L92 62 L92 78 Z" class="s f-yellow"/><circle cx="128" cy="67" r="2.2" class="f-ink"/></g>' +
+    '<g class="f-white"><circle class="s rise" cx="260" cy="90" r="5" stroke-width="2"/><circle class="s rise" cx="274" cy="80" r="4" style="animation-delay:1s" stroke-width="2"/><circle class="s rise" cx="266" cy="68" r="3" style="animation-delay:2s" stroke-width="2"/></g>' +
+    '<path class="sway s nf" d="M24 104 Q16 84 26 66 Q34 82 30 96" stroke-width="3"/><path class="sway s nf" d="M40 104 Q50 80 40 60" stroke-width="3" style="animation-delay:-1s"/>' +
+    '<g transform="translate(206 92)"><ellipse rx="26" ry="15" class="s f-coral"/><circle cx="-8" cy="-14" r="3" class="f-ink"/><circle cx="8" cy="-14" r="3" class="f-ink"/>' +
+    '<g class="wave-arm"><circle cx="-34" cy="-10" r="9" class="s f-coral"/></g><g class="wave-arm" style="animation-delay:-.6s"><circle cx="34" cy="-10" r="9" class="s f-coral"/></g>' +
+    '<path d="M-14 12 l-6 8 M-4 14 l-3 9 M6 14 l3 9 M16 12 l6 8" class="s nf" stroke-width="2.6"/></g></svg>',
+    // Day 5 小樽運河
+    '<svg viewBox="0 0 320 120" role="img" aria-label="小樽運河、紅磚倉庫與時鐘塔插圖"><rect width="320" height="120" class="f-aqua-l"/>' +
+    '<g transform="translate(220 10) scale(.6)"><g class="drift"><path d="M20 46 q-16 0 -16 -13 q0 -13 17 -13 q5 -15 24 -13 q17 -1 22 14 q16 1 16 12 q0 13 -16 13 z" class="s f-white"/></g></g>' +
+    '<path d="M24 98 V42 H140 V98 Z" class="s f-coral"/><path d="M24 42 L82 22 L140 42" class="s f-coral-l"/>' +
+    '<g class="f-paper"><rect class="s" x="36" y="54" width="18" height="18" rx="3" stroke-width="2.4"/><rect class="s" x="66" y="54" width="18" height="18" rx="3" stroke-width="2.4"/><rect class="s" x="96" y="54" width="18" height="18" rx="3" stroke-width="2.4"/><rect class="s" x="66" y="76" width="18" height="22" rx="3" stroke-width="2.4"/></g>' +
+    '<rect x="172" y="30" width="30" height="68" rx="4" class="s f-paper"/><path d="M168 30 L187 10 L206 30 Z" class="s f-green"/><circle cx="187" cy="48" r="9" class="s f-yellow" stroke-width="2.4"/><path d="M187 42 v6 h5" class="s nf" stroke-width="2.2"/>' +
+    '<path d="M240 98 V54" class="s nf" stroke-width="3"/><circle class="pulse s f-yellow" cx="240" cy="50" r="7" stroke-width="2.4"/>' +
+    '<rect y="96" width="320" height="24" class="f-aqua"/><path d="M0 96 H320" class="s"/>' +
+    '<g class="bob"><path d="M262 104 H300 L292 114 H270 Z" class="s f-yellow" stroke-width="2.6"/><path d="M281 104 V90 L292 104" class="s f-white" stroke-width="2.4"/></g></svg>',
+    // Day 6 飛機與購物
+    '<svg viewBox="0 0 320 120" role="img" aria-label="飛機與購物袋插圖"><rect width="320" height="120" class="f-aqua-l"/>' +
+    '<g transform="translate(30 14) scale(.7)"><g class="drift"><path d="M20 46 q-16 0 -16 -13 q0 -13 17 -13 q5 -15 24 -13 q17 -1 22 14 q16 1 16 12 q0 13 -16 13 z" class="s f-white"/></g></g>' +
+    '<g transform="translate(0 26)"><g class="fly"><use href="#plane" width="64" height="40"/></g></g>' +
+    '<g transform="translate(236 104)"><g class="bob" style="animation-duration:3s"><path d="M-30 -66 H30 L36 0 H-36 Z" class="s f-coral"/><path d="M-14 -66 Q-14 -90 0 -90 Q14 -90 14 -66" class="s nf"/>' +
+    '<path d="M0 -26 C-18 -40 -8 -52 0 -42 C8 -52 18 -40 0 -26 Z" class="s f-paper" stroke-width="2.4"/></g></g>' +
+    '<g transform="translate(150 96)">' + STAR + '</g><g transform="translate(290 36)">' + STAR + '</g><g transform="translate(60 98)">' + STAR + '</g></svg>'
+  ];
+
+  ILL = [ILL[0],ILL[2],ILL[1],ILL[4],ILL[3],ILL[5]];
+
+  /* ---------- 行程資料 ---------- */
+  var DAYS = [
+    {"d":"11/04","w":"三","title":"飛抵函館・百萬夜景","stops":[{"t":"12:00","name":"桃園機場 → 函館空港","tags":["飛機"],"desc":"09:30 於桃園機場第一航廈星宇航空 7 號團體櫃台集合，搭 JX860 飛往函館，當地時間 16:30 抵達。"},{"must":true,"t":"夜晚","name":"函館山百萬夜景","tags":["纜車"],"desc":"標高 334 公尺，與香港、拿坡里並稱世界三大夜景；因半島地形，夜景呈獨特的扇形曲線。含星空纜車或來回計程車。","note":"纜車若遇天候、故障或維修，改乘計程車上下山；若因不可抗力無法欣賞夜景，退費日幣 1,650 圓。山上風大較冷，請穿保暖衣物。"},{"tags":["住宿"],"name":"湯之川溫泉・溫泉之夜","desc":"回飯店泡湯休息，結束第一天。"}],"meals":{"b":"自理（溫暖的家）","l":"機上簡餐","d":"飯店豪華總匯自助餐"},"stay":0},
+    {"d":"11/05","w":"四","title":"函館・大沼・登別溫泉","stops":[{"tags":["步行"],"name":"函館朝市","desc":"各式海鮮與丼飯、螃蟹鍋物，可自費品嚐海膽蓋飯、魚卵蓋飯。"},{"tags":["專車"],"name":"五稜郭公園（夢幻星型）","desc":"日本罕見的西洋式星形城堡，也是土方歲三戰死之地、幕末箱館戰爭的終點。"},{"must":true,"tags":["鐵道"],"name":"漁火鐵道（函館－上磯）","desc":"沿津輕海峽行駛的海岸列車，傍晚時海面染成橘色；運氣好還能看到漁船點亮的漁火。"},{"tags":["專車"],"name":"大沼・小沼國定公園","desc":"新日本三景之一，包含月見橋與大沼湖畔，秋天紅葉相當迷人。"},{"tags":["步行"],"name":"登別地獄谷","desc":"直徑約 450 公尺的舊火山口，終年冒著白煙，是登別溫泉的源頭。"},{"tags":["步行"],"name":"登別溫泉鄉・極樂通商店街","desc":"登別溫泉為植物性湯種，泡起來滑嫩，有「美人湯」之稱；晚餐後可自由前往極樂通商店街選購伴手禮。"},{"tags":["步行"],"name":"閻魔堂魔王變臉秀","desc":"每天六場的地獄審判表演，晚餐後可自由前往。"}],"meals":{"b":"飯店內","l":"海鮮風味鍋","d":"飯店豪華總匯自助餐"},"stay":1},
+    {"d":"11/06","w":"五","title":"尼克斯・伊達時代村・洞爺湖","stops":[{"must":true,"tags":["專車"],"name":"尼克斯海洋公園","desc":"丹麥古城風格的海洋主題樂園。看 8 公尺高的水晶塔大水槽、走北海道第一條水中隧道，還有海豚海獅秀與國王企鵝大遊行。","note":"企鵝遊行可能因企鵝身體不適而臨時取消。"},{"must":true,"tags":["專車"],"name":"登別伊達時代村","desc":"重現江戶時代的主題樂園，有忍者武打秀、花魁劇場、妖怪屋與忍者迷宮；午餐在村內享用海鮮蒸籠宴。"},{"tags":["專車"],"name":"昭和新山（活火山）","desc":"1943 年地震中隆起的山，現今標高 402 公尺，仍可見地熱白煙。"},{"must":true,"tags":["專車"],"name":"昭和新山熊牧場","desc":"北海道代表動物棕熊。贈送熊餅乾或熊蘋果，可餵食可愛的棕熊。"},{"tags":["步行"],"name":"洞爺湖畔雕刻公園","desc":"58 座雕刻作品，像一座戶外美術館。"},{"tags":["專車"],"name":"洞爺湖展望台","desc":"北海道三大景觀之一，可遠眺有「蝦夷富士」之稱的羊蹄山。"},{"tags":["步行"],"name":"洞爺湖畔散策・星空溫泉","desc":"沿湖散步，夜晚泡湯看星空。"},{"tags":["步行"],"name":"洞爺夢幻彩燈隧道","desc":"超過 40 萬顆燈泡、全長 70 公尺的光之隧道（預計 2026/11/01–2027/04/27 開放）。","note":"若因洞爺湖溫泉區飯店客滿改住他區，將不前往；點燈情形以現場公告為準。"}],"meals":{"b":"飯店內","l":"伊達時代村內海鮮蒸籠宴","d":"飯店豪華總匯自助餐"},"stay":2},
+    {"d":"11/07","w":"六","title":"小樽浪漫遊・札幌市區","stops":[{"must":true,"tags":["專車"],"name":"小樽運河","desc":"沿岸是明治、大正時代的紅磚倉庫群，適合漫步拍照。"},{"tags":["步行"],"name":"北一硝子館","desc":"以玻璃工房聞名，可欣賞精巧的彩繪玻璃。"},{"tags":["步行"],"name":"小樽音樂盒堂博物館","desc":"展示四千多種音樂盒，歐風蒸氣鐘也在這一帶。"},{"tags":["步行"],"name":"六花亭・北菓樓","desc":"六花亭是北海道老字號甜點店；北菓樓的妖精之森年輪蛋糕與夢不思議泡芙是人氣商品。"},{"tags":["專車"],"name":"大通公園","desc":"長 1,500 公尺的市中心公園，有噴泉、花壇與野口勇設計的旋渦形溜滑梯。"},{"tags":["專車"],"name":"時計台・舊道廳（車經）","desc":"日本最古老的鐘塔，以及紅磚造的新巴洛克式舊道廳。"},{"must":true,"tags":["美食"],"name":"三大螃蟹吃到飽","desc":"北海道三大螃蟹、燒肉或鍋物，啤酒、清酒、可爾必思、烏龍茶無限暢飲。"},{"tags":["自由活動"],"name":"自由夜訪札幌","desc":"晚餐後自由探索札幌夜生活。"}],"meals":{"b":"飯店內","l":"自理","d":"北海道三大螃蟹＋燒肉或鍋物，啤酒、清酒、可爾必思、烏龍茶無限供應"},"stay":3},
+    {"d":"11/08","w":"日","title":"札幌市區・水族館與纜車","stops":[{"tags":["專車"],"name":"免稅店","desc":"選購北海道名產、健康食品與電器。"},{"tags":["專車"],"name":"巧克力博物館・白色戀人","desc":"英式中庭、紅磚地與噴水池，還有白色戀人餅乾的製造工廠。"},{"must":true,"tags":["步行"],"name":"AOAO SAPPORO 水族館","desc":"位於大通站旁，4–6 樓共 400 多種動植物，可看長冠企鵝與世界最小的小藍企鵝。"},{"must":true,"tags":["纜車"],"name":"藻岩山觀景纜車","desc":"偶像劇拍攝地。搭兩段纜車（山麓站－山腰站－山頂站）登上山頂，欣賞札幌全景。","note":"若遇維修未開放，改搭小樽天狗山纜車。"}],"meals":{"b":"飯店內","l":"人氣 NO.1 湯咖哩風味餐","d":"自理（自由夜訪札幌）"},"stay":3},
+    {"d":"11/09","w":"一","title":"購物・返家","stops":[{"tags":["專車"],"name":"三井 OUTLET 或 RERA 購物商場","desc":"近百家國際品牌，最後採買伴手禮與過季精品。"},{"tags":["專車"],"name":"前往新千歲空港","desc":"專車前往機場辦理登機。"},{"t":"15:20","tags":["飛機"],"name":"新千歲 → 桃園機場","desc":"星宇航空 JX851，19:05 抵達桃園，結束這趟北海道之旅。"}],"meals":{"b":"飯店內","l":"自理（方便逛街）","d":"返家享用"},"stay":null}
+  ];
+
+  /* ---------- 景點詳細介紹（m 介紹／p 看點／t 小提醒／g 地圖） ---------- */
+  var DETAIL = [
+    [{"m":["11/04 上午 09:30 於桃園機場第一航廈星宇航空 7 號團體櫃台集合，辦完出境手續後，搭乘星宇航空 JX860 於 12:00 起飛，飛行約 3 個半小時，當地時間 16:30 抵達函館空港。日本比台灣快 1 小時，抵達後記得把手錶與手機時間一併留意。","函館空港位於市區東側，距離湯之川溫泉只有十來分鐘車程，是前往道南地區（函館、大沼、洞爺湖）的門戶。"],"p":["出發日：11/04（三）","09:30 桃園機場第一航廈星宇航空 7 號團體櫃台集合","入境前先完成 Visit Japan Web 填寫，通關更順暢","抵達後直接前往函館山，把握夜景時段"],"t":["行動電源請隨身攜帶，不可託運；液體類請依航空規定處理","護照效期須在 2027/05/11 之後"],"g":[["函館空港","函館空港"]]},{"m":["函館山標高 334 公尺，夜晚從山頂往下看，萬家燈火在腳下閃爍，海面映著街燈、光影隨浪起伏，宛如萬道金蛇翻騰，與香港、拿坡里並稱世界三大夜景。","函館市區位在一座半島上，以狹長的頸岬與本島相連，兩側海灣夾出雙曲弧線，所以夜景呈現出獨特的「扇形」，是來函館不能錯過的風景。本行程含星空纜車（或來回計程車）。"],"p":["標高 334 公尺，纜車約 3 分鐘登頂","獨特扇形夜景，雙曲弧線一次看個夠","世界三大夜景之一"],"t":["山上風大較冷，請務必穿著保暖衣物","纜車若遇天候、故障或維修，改乘計程車上下山","若因不可抗力無法欣賞夜景，退費日幣 1,650 圓","拍夜景時手要穩，可開手機夜景模式；低溫耗電快，備好行動電源"],"g":[["函館山山頂展望台","函館山 山頂展望台"],["纜車山麓站","函館山ロープウェイ 山麓駅"]]},{"m":["回到飯店泡湯休息，結束第一天。湯之川溫泉是函館最知名的溫泉區，距離空港與市區都很近，據說已有三百多年歷史，泉質溫和，很適合旅途第一晚舒緩疲勞。","晚餐為飯店豪華總匯自助餐。"],"p":["入浴禮儀：先洗淨身體再入池，毛巾不放入湯中","有刺青者請先向飯店洽詢","明早要去函館朝市，早點休息"],"t":["洗完溫泉記得補充水分，並確認隔天的出發時間"],"g":[["湯之川溫泉","湯の川温泉"],["湯之川觀光溫泉飯店","湯の川温泉 観光ホテル"]]}],
+    [{"m":["函館朝市位於函館車站旁，是道南最具代表性的海鮮市場，各式新鮮海產目不暇給。美食街上的餐廳門口擺滿餐點模型，令人垂涎。","可自費品嚐海膽蓋飯、魚卵蓋飯、螃蟹鍋物等，也是挑選北海道乾貨與伴手禮的好地方。"],"p":["自費美食：海膽丼、海鮮丼、螃蟹鍋物","邊逛邊看各式海產，氣氛熱鬧","車站就在旁邊，集合點好找"],"t":["多數店家以現金為主，建議準備一些日幣","時間有限，先決定好想吃的再逛，避免錯過集合時間"],"g":[["函館朝市","函館朝市"]]},{"m":["五稜郭是日本罕見的西洋式城堡，1864 年由武田斐三郎花了十年左右完成。五角星形的稜堡設計，讓守軍火力幾乎沒有死角。","這裡也是幕末箱館戰爭的終結地，更是新選組副隊長土方歲三的戰死之地；這場戰役改寫了日本歷史，也為新選組的傳奇畫下句點。"],"p":["星形城郭是日本罕見的西洋式城堡","幕末箱館戰爭終結地","新選組土方歲三殉職之地","秋天園內的樹木染上秋色，散步很舒服"],"t":["星形全貌從高處最清楚，若時間充裕可考慮登五稜郭塔（需另購票）","園區很大，建議穿好走的鞋"],"g":[["五稜郭公園","五稜郭公園"],["五稜郭塔","五稜郭タワー"]]},{"m":["道南漁火鐵道沿著津輕海峽前進，窗外是波光粼粼、一望無際的海平線。傍晚時分，海面會染成一片橘色的夢幻海景，讓每位乘客都為之傾倒。","如果時間湊巧，還有機會看到漁船出海時點亮的點點漁火（いさりび），如繁星般閃爍在海上。沿線景點眾多，御祓濱是絕佳的觀景地點，可將津輕海峽、函館山與下北半島盡收眼底。"],"p":["沿著津輕海峽的海岸列車","傍晚橘色海景最迷人","運氣好可看到出海漁船的漁火","可探索沿線御祓濱觀景點"],"t":["漁火是否出現依天候與當日漁況而定，不一定看得到","坐在海側的座位視野較佳；列車班次少，請跟緊領隊"],"g":[["函館車站","函館駅"],["御祓濱","御祓浜 北斗市"]]},{"m":["大沼・小沼國定公園被評選為「新日本三景」，雄偉自然之美是它的魅力所在。從駒岳山麓的原野向外伸展，園內包含大沼、小沼與蓴菜沼三座湖泊，四周被青青草原包圍，湖堤兩岸景色變化萬千。","秋天時分，大小沼的紅葉非常迷人，是人氣很高的賞楓地點；月見橋與大沼湖畔也適合悠閒散步拍照。"],"p":["新日本三景之一","大沼、小沼、蓴菜沼三座湖泊","月見橋與湖畔散步","秋天紅葉景色最受歡迎"],"t":["湖邊風大，注意保暖","拍倒影以風平浪靜時最漂亮"],"g":[["大沼國定公園","大沼国定公園"],["月見橋","月見橋 大沼"]]},{"m":["地獄谷位於登別溫泉街盡頭，是一處舊火山爆裂口，直徑約 450 公尺，終年冒著裊裊白煙，周遭是寸草不生的猙獰地形，因此被命名為「地獄谷」。","它也是登別最有名的溫泉源頭，據說登別所有湯量的四分之三都來自這裡。"],"p":["直徑約 450 公尺的舊火山爆裂口","終年白煙裊裊、地形猙獰","登別溫泉的源頭，約四分之三湯量由此而來"],"t":["硫磺味道較重，行走時注意腳下與其他遊客","步道有高低差，請穿好走的鞋"],"g":[["登別地獄谷","登別地獄谷"]]},{"m":["登別溫泉和十勝川溫泉都是世界罕有的植物性湯種，泡起來皮膚觸感特別滑嫩，也有「美人湯」之稱。","晚餐後可自由前往極樂通商店街，兩旁商店販售各式傳統工藝品與伴手禮，可以挑選小禮物送給另一半或家人。"],"p":["植物性湯種、有「美人湯」之稱","極樂通商店街：傳統工藝品與伴手禮","晚餐後自由活動"],"t":["晚餐後自由前往，請注意集合與返回飯店時間","溫泉街夜晚氣溫低，記得多穿衣物"],"g":[["登別溫泉街 極樂通","登別温泉 極楽通り商店街"]]},{"m":["閻魔堂是登別溫泉街上的名勝，每天有六場「地獄審判」表演，閻魔王的表情會由原本的溫和瞬間轉成兇惡，也就是大家說的「魔王變臉秀」，吸引不少觀光客駐足圍觀，人氣指數百分百。","晚餐後可自由前往。"],"p":["每天六場的地獄審判表演","閻魔王由溫和瞬間變兇惡的變臉秀"],"t":["場次時間以現場公告為準，晚間抵達時有可能已結束"],"g":[["閻魔堂","登別温泉 閻魔堂"]]}],
+    [{"m":["尼克斯海洋公園是以「生命誕生的泉源——海洋」為主題的樂園，整個園區以中世紀丹麥的耶斯克城為藍本打造。位於中心的尼克斯城是四層樓高的新型水族館，館內有高達 8 公尺的廣角大型水槽「水晶塔」，以及北海道第一個水中隧道「AQUA 隧道」，可以親身體驗在海中散步的感覺。","水族館以人工方式分成寒流與暖流兩條水中隧道，魚兒就在頭頂悠游，光影交錯如夢幻水中世界。城外是北歐風街景，每天還有海豚和海獅表演，以及超可愛的國王企鵝大遊行。"],"p":["8 公尺高的水晶塔大水槽","北海道第一條水中隧道（AQUA 隧道）","海豚、海獅表演秀","國王企鵝大遊行，左搖右晃很療癒"],"t":["企鵝遊行可能因企鵝身體不適而臨時取消，是否舉行請以現場公告為準","表演場次有時間限制，請跟緊領隊的安排"],"g":[["登別尼克斯海洋公園","登別マリンパークニクス"]]},{"m":["登別伊達時代村是可以藉由娛樂體驗日本江戶時代（1603–1867 年）歷史與文化的主題樂園。園區依時代考證打造木造建築群，工作人員穿著江戶時代平民服裝，連說話都是親切的江戶腔調，一進門就像回到江戶時代。","園內有動作俐落的忍者武打秀、華麗服飾的花魁劇場、爆笑的時代劇場，以及妖怪驚奇小屋、貓妖怪鬼屋「御貓寺」、重現古街的商家街、由忍者設計的「忍者怪怪迷路」、可投擲忍者手裏劍與弓箭的體驗道場、可穿和服變身殿下或公主的 UTSUROI 館、吹箭與套圈圈的遊戲館等，大人小孩都能玩得開心。午餐在村內享用海鮮蒸籠宴。"],"p":["忍者武打秀、花魁劇場、時代劇場","妖怪驚奇小屋、御貓寺、忍者怪怪迷路","體驗道場：投擲忍者手裏劍、弓箭","穿和服變身殿下或公主（UTSUROI 館）","「精選推薦第一」的人氣景點"],"t":["園區很大且表演場次固定，抵達後先確認場次時間","部分體驗為自費項目，依現場公告為準"],"g":[["登別伊達時代村","登別伊達時代村"]]},{"m":["昭和新山原本是一片農地，昭和 18 年（1943 年）發生大地震，火山活動使地表隆起成山，最初高度只有約 270 公尺，之後因地表持續活動，山的高度一天天增加，現今標高 402 公尺。","它至今仍是一座「正在成長的新山」，山上還能看到地熱白煙噴出，是了解火山活動的好地方。"],"p":["由地震與火山活動隆起的新山","現今標高 402 公尺","山體仍冒出地熱白煙","隔著洞爺湖與有珠山遙遙相望"],"t":["山體冒煙處地表溫度高，請勿靠近危險區域或隨意攀爬"],"g":[["昭和新山","昭和新山"]]},{"m":["棕熊是北海道的代表動物，雖然屬於兇猛動物，卻長相討喜，是北海道的人氣象徵，到處都有牠的周邊商品。","行程特別贈送熊餅乾或熊蘋果，可以近距離餵食可愛的棕熊，看牠們伸手討食的模樣非常療癒。"],"p":["贈送熊餅乾或熊蘋果可餵食","近距離觀察北海道的代表動物","熊相關商品琳瑯滿目，適合挑伴手禮"],"t":["餵食時請聽從現場人員指示，手不要伸出圍欄","勿大聲喧嘩驚嚇動物"],"g":[["昭和新山熊牧場","昭和新山熊牧場"]]},{"m":["洞爺湖雕刻公園以「生命之歌」為主題，園內佇立著 58 座雕刻作品，材質包含青銅、大理石、花崗石、不鏽鋼等，風格多樣，像是一座充滿樂趣的戶外美術館。","不同季節有不同的景色當背景，迎著微風散步欣賞，就是一場視覺的饗宴。"],"p":["58 座雕刻作品","青銅、大理石、花崗石、不鏽鋼等多種材質","湖畔散步，一邊看作品一邊看湖景"],"t":["雕刻作品多在戶外，地面可能潮濕，注意防滑"],"g":[["洞爺湖彫刻公園","洞爺湖 彫刻公園"]]},{"m":["洞爺湖是火口湖，湖水清澈美麗，翠綠的島嶼與藍色湖面形成鮮明對比，被列為北海道三大景觀之一。湖面上漂浮著四座小島，皆被劃入自然保護區加以管理。","天氣好時，可以眺望有「蝦夷富士」之稱的羊蹄山，山形優美，是洞爺湖周邊最具代表性的景色。"],"p":["火口湖，湖水清澈","湖面上四座小島受自然保護","遠眺「蝦夷富士」羊蹄山","北海道三大景觀之一"],"t":["能否看到羊蹄山要看當天雲層與能見度","展望台風大，記得保暖"],"g":[["洞爺湖展望台","洞爺湖展望台"]]},{"m":["晚上入住洞爺湖畔的溫泉飯店，可以沿著湖畔輕鬆散步，感受夜晚的寧靜湖景。洞爺湖溫泉街的飯店多半面湖，部分大浴場視野很好，夜裡泡湯還有機會抬頭看星空。","今天的午餐為鮭魚燒鏘鏘燒或海鮮風味鍋，晚餐是飯店豪華自助餐或日式迎賓會席料理。"],"p":["湖畔散策，欣賞夜晚的洞爺湖","星空溫泉，邊泡湯邊賞星","飯店周邊旅遊、購物、餐飲都方便"],"t":["夜晚湖邊氣溫低，散步請多穿一件","行程後面的洞爺彩燈隧道也在溫泉街區域，可一併安排"],"g":[["洞爺湖溫泉街","洞爺湖温泉街"]]},{"m":["洞爺夢幻彩燈隧道以 40 萬顆以上的燈泡裝飾而成，是直徑 9 公尺、全長 70 公尺的光之隧道。走進隧道，炫目迷人的燈光便會籠罩全身，享受冬季才有的夢幻彩燈世界。","預計 2026/11/01 至 2027/04/27 開放，實際點燈情形以現場公告為準。"],"p":["40 萬顆以上燈泡","直徑 9 公尺、全長 70 公尺","冬季限定的夢幻光之隧道"],"t":["如因洞爺湖溫泉區飯店客滿，改住其他地區溫泉鄉，將不前往洞爺彩燈隧道","點燈時間與期間以現場公告為準"],"g":[["洞爺湖溫泉 彩燈","洞爺湖温泉 イルミネーション"]]}],
+    [{"m":["小樽運河是日本少見、保存古色古香又富有歐洲風情的運河，周圍並排著明治、大正時代以紅磚與石材建造的倉庫群，寧靜中帶著一股鄉愁，很適合與情人或家人漫步。","傍晚點燈後瓦斯燈映在水面上，氣氛尤其浪漫；白天則適合拍倉庫與運河的合照。"],"p":["明治、大正時代的紅磚倉庫群","漫步運河畔，浪漫又寧靜","適合拍照取景"],"t":["運河邊風大，記得保暖","今天自由活動時間有限，請留意集合時間"],"g":[["小樽運河","小樽運河"]]},{"m":["北一硝子館素有「玻璃工房」之盛名，可以參觀精巧的彩繪玻璃藝術，各式玻璃製品琳瑯滿目，吸引無數觀光客駐足。","館旁的北一 Hall 是以煤油燈照明的咖啡廳，氣氛復古，想歇腳喝杯咖啡時可以考慮。"],"p":["玻璃工房，精巧的彩繪玻璃","各式玻璃杯、飾品、擺設可挑選","適合挑選有質感的紀念品"],"t":["玻璃製品易碎，購買時請請店員妥善包裝","建議放進隨身行李或用衣物保護"],"g":[["北一硝子三號館","北一硝子三号館"]]},{"m":["小樽音樂盒堂博物館陳列著四千多種各式各樣的音樂盒，可以聆聽各種幽美動人的旋律，是一家很有名的小樽代表景點。","門外的歐風蒸氣鐘也是熱門拍照點，蒸氣鐘會定時噴出蒸氣並鳴響報時，不妨抓準時間欣賞。"],"p":["四千多種音樂盒","可試聽各式曲目","門外有歐風蒸氣鐘"],"t":["音樂盒小巧好攜帶，很適合當伴手禮","蒸氣鐘報時有固定時間，可先看一下時間表"],"g":[["小樽音樂盒堂 本館","小樽オルゴール堂 本館"],["蒸氣鐘","小樽 蒸気時計 堺町通り"]]},{"m":["六花亭是北海道的老字號店家，也是北海道最早的白巧克力製造商。三十多年來憑藉十勝地區的高級牛乳與食材，創作出許多和洋融合的甜點，分店遍布北海道各地。","北菓樓是洋菓子專賣店，就位在靠近北一硝子的堺町通上，堅持使用傳統細膩工法，以及北海道特產的小麥粉、乳酪、十勝產鮮奶油與甜菜砂糖，甚至連水都特地選用「名水百選」中的礦泉水。代表點心是「妖精之森」年輪蛋糕，另有「夢不思議」大泡芙，都是人氣商品，還有許多限定甜點可自由選購。"],"p":["六花亭：北海道老字號甜點店","北菓樓：妖精之森年輪蛋糕","北菓樓：夢不思議大泡芙","限定甜點可自由選購"],"t":["泡芙與蛋糕保存期限短，建議當天享用","伴手禮餅乾類較耐放，適合帶回台灣"],"g":[["北菓樓 小樽本館","北菓楼 小樽本館"],["六花亭 小樽","六花亭 小樽"]]},{"m":["大通公園全長約 1,500 公尺、寬約 105 公尺，是札幌市中心的公園，也是每年 2 月初雪祭的舉辦地。四周是各種商社、金融機構大樓與北海道政府大樓，南面是大規模的地下商業街。","園內有許多城市雕塑、噴水池、丁香與槐樹，設有花壇、噴泉，以及世界著名雕刻家野口勇設計的旋渦形滑梯等設施。"],"p":["長約 1,500 公尺的市中心公園","雪祭舉辦地（每年 2 月初）","野口勇設計的旋渦形滑梯","噴泉、花壇與各式雕塑"],"t":["市中心很多逛街地點，離開前請確認集合時間與地點"],"g":[["大通公園","大通公園 札幌"]]},{"m":["札幌市時計台是一棟 5 層樓的白色鐘塔，1878 年作為北海道大學前身——舊札幌農校的演武場而建，是日本最古老的鐘塔，當年的齒輪等主要零件至今仍在使用，十分罕見。1966 年市議會作出永久保存的決定，儘管周圍高樓林立，它仍不改一世紀前的雄姿與音色。","舊道廳建於 1888 年，以美國麻薩諸塞州議會廳為藍本，是新巴洛克式紅磚建築，據說總共使用兩百五十萬塊紅磚，當地人暱稱為「紅磚館」。館內的道立文書館保存了從開拓前的時代到 1886 年北海道政府設立為止的約 19 萬份文件與資料。本行程為車經觀賞。"],"p":["時計台：日本最古老的鐘塔（1878 年）","時計台：當年齒輪仍在使用","舊道廳：新巴洛克式紅磚建築（1888 年）","舊道廳：使用約 250 萬塊紅磚，暱稱「紅磚館」"],"t":["本行程為車經，若想入內參觀請另行安排時間"],"g":[["札幌市時計台","札幌市時計台"],["北海道廳舊本廳舍","北海道庁旧本庁舎"]]},{"m":["今晚是這趟旅行的豪華晚宴：北海道三大螃蟹，搭配燒肉或鍋物，啤酒、清酒、可爾必思、烏龍茶全部無限供應。","北海道的螃蟹以鱈場蟹（俗稱帝王蟹）、松葉蟹與毛蟹最為知名，實際供應的蟹種以餐廳當天提供為準。午餐則是人氣第一的湯咖哩風味餐。"],"p":["三大螃蟹吃到飽","燒肉或鍋物任選一種","啤酒、清酒、可爾必思、烏龍茶無限供應"],"t":["吃蟹後手上有腥味，可向店家索取濕巾或多洗幾次手","蟹殼尖銳，用剪刀與蟹叉時小心"],"g":[["札幌 螃蟹吃到飽","札幌 かに 食べ放題"]]},{"m":["晚餐吃完三大螃蟹後，今晚自由探索札幌夜生活。札幌市中心的美食與逛街選擇很多，湯咖哩、成吉思汗烤羊肉、拉麵、海鮮丼都很受歡迎。","若想感受夜晚熱鬧的氛圍，可以前往札幌最大的繁華街薄野一帶，沿途有各式餐廳、居酒屋與霓虹招牌。"],"p":["晚餐與逛街自理","薄野一帶夜生活熱鬧","市中心美食選擇多元"],"t":["請記好飯店名稱與地址，手機備妥離線地圖","夜間結伴同行，注意人身與財物安全","明天仍有行程，晚上別太晚睡"],"g":[["薄野","すすきの 札幌"]]}],
+    [{"m":["在免稅店可以選購喜愛的北海道名產，品項琳瑯滿目，如果還沒買到紀念品、健康食品或 3C 電器，可把握時間盡情選購。","免稅購物通常需出示護照，各店退稅規定依現場告知為準。"],"p":["北海道名產、健康食品、3C 電器","購物時間有限，建議先列好清單"],"t":["請攜帶護照以辦理免稅","實際停靠店家以當日領隊安排為準"],"g":[["札幌 免稅店","札幌 免税店"]]},{"m":["白色戀人公園由工廠改裝而成，先映入眼簾的是英式中庭，地上鋪著紅色磚塊，還有噴水池與街燈，濃濃歐洲風情，像置身於國外城堡的庭院。","園內設有白色戀人巧克力餅乾的製造工廠，可以了解餅乾的製作過程，也是挑選伴手禮的熱門地點。"],"p":["英式中庭，紅磚地、噴水池與街燈","白色戀人餅乾的製造工廠","拍照氛圍很歐風"],"t":["伴手禮種類多，先決定預算再選購","園內部分體驗為自費，依現場公告為準"],"g":[["白色戀人公園","白い恋人パーク"]]},{"m":["AOAO SAPPORO 水族館位於複合商業設施 moyuk SAPPORO 的 4–6 樓，距離札幌市營地下鐵大通站步行約 3 分鐘，或札幌市電狸小路站步行約 1 分鐘，合計超過 400 多種動植物。","4 樓以「CONNECT」為主題，把水族館運營的後台搬上檯面，可以看見水族館如何自製海水與照顧動物；5 樓「SCOPE」專注在未知的世界，世界第 3 座自然生態水族箱是最大看點；6 樓「COMMONS」可近距離觀察長冠企鵝，同層的 GREEN ROOM 還有世界最小型的小藍企鵝。"],"p":["4 樓 CONNECT：人與水世界的連結","5 樓 SCOPE：自然生態水族箱","6 樓 COMMONS：長冠企鵝","GREEN ROOM：世界最小型的小藍企鵝，台灣看不到"],"t":["位在市中心商場內，走動不長，但人潮多時請留意隨身物品"],"g":[["AOAO SAPPORO","AOAO SAPPORO"]]},{"m":["藻岩山觀景纜車伴隨部分設施全新開放，換成最新款的纜車，玻璃窗寬敞明亮，可將藻岩山的原生林與札幌市街景盡收眼底，還能眺望遠方山頭的白雪。","搭乘兩段纜車前往山頂：山麓站 → 山腰站 → 山頂站。山腰站從纜車層換乘時不必走出車站，並設有販賣北國名菓的賣店；山頂展望台有 360 度全景，雨天或冬季也能在室內欣賞市容，是偶像劇的拍攝地。"],"p":["兩段式纜車：山麓站 → 山腰站 → 山頂站","360 度札幌全景","山頂展望台室內也能賞景","偶像劇拍攝地"],"t":["山頂風大且溫差大，請帶外套","如遇維修未開放，改搭小樽天狗山纜車"],"g":[["藻岩山纜車 山麓站","札幌もいわ山ロープウェイ 山麓駅"],["備案：小樽天狗山纜車","小樽天狗山ロープウェイ"]]}],
+    [{"m":["最後一天先前往購物商場：三井 OUTLET 或 RERA 購物商場。這裡網羅了近百家世界一流品牌，所謂「暢貨中心」商品多來自知名品牌的樣品、庫存品，質量俱佳，是北海道最受歡迎的大型購物中心，可買到市價三到八成的精品與各式過季品牌。","實際前往哪一處，以當日領隊安排為準。"],"p":["近百家國際品牌","可買到市價約三到八成的過季商品","可趁機補買伴手禮"],"t":["留意集合時間，下午 15:20 起飛，不要買到忘記時間","行李重量請提前規劃，避免超重"],"g":[["三井 OUTLET PARK 札幌北廣島","三井アウトレットパーク札幌北広島"]]},{"m":["購物結束後，專車前往新千歲空港辦理登機。新千歲空港是北海道的空中門戶，航廈內設有許多伴手禮店與餐廳，還有各種特色商店，若有剩餘時間可以做最後採買。","出發前請確認護照、登機證與託運行李都準備好，並預留足夠的時間辦理登機手續。"],"p":["專車直接前往新千歲空港","航廈內有大量伴手禮與餐廳","辦理登機與託運行李"],"t":["液體類伴手禮請依航空規定託運","行動電源務必隨身攜帶"],"g":[["新千歲空港","新千歳空港"]]},{"m":["星宇航空 JX851 於 15:20 從新千歲起飛，當地時間約 19:05 抵達桃園機場（台灣時間比日本慢 1 小時），為這趟北海道之旅畫下句點。","函館夜景、熊牧場、漁火鐵道、水族館與螃蟹吃到飽，希望這趟旅程留下滿滿的回憶。"],"p":["起飛 15:20，抵達約 19:05（當地時間）","回台灣後記得整理照片與發票"],"t":["入境台灣前，部分食品（肉製品等）有檢疫限制，請事先確認"],"g":[["新千歲空港 國際線航廈","新千歳空港 国際線ターミナル"]]}]
+  ];
+
+  /* ---------- 必拍・必買 ---------- */
+  var PHOTO = {"0-1":{"sc":"nightview","spots":["函館市區、港灣與海灣雙弧形夜景的全景照","以夜景為背景的人像、背影或情侶合照","纜車車廂與山頂景觀照","山頂夜景與城市燈火的近距離細節照"],"tip":"先拍一張完整全景，再拍人像。夜景環境風大又冷，手機可以開啟夜景模式，拍攝時盡量固定雙手。纜車官方資料顯示，10 月至隔年 4 月的一般營運時段，上山末班車為 20:30；實際仍可能受天候及營運調整影響。"},"1-0":{"sc":"crab","spots":["海鮮攤位、螃蟹、海膽、魚卵與海鮮丼"]},"1-1":{"sc":"fort","spots":["星形護城河","城郭步道","秋冬景色"],"tip":"想拍到完整的五稜郭星形輪廓，最推薦從五稜郭塔觀景台俯瞰；不過行程表寫的是五稜郭公園，沒有明確列出入塔參觀，請先問領隊當天是否會安排。"},"1-2":{"sc":"trainsea","spots":["車窗外的海岸線","津輕海峽","沿途車景"]},"1-3":{"sc":"lake","spots":["湖面","橋梁（月見橋）","駒岳山景"]},"1-4":{"sc":"steam","spots":["火山岩地形","冒煙的地熱","步道景觀"]},"1-5":{"sc":"oni","spots":["鬼像","溫泉街招牌","特色小店"]},"1-6":{"sc":"oni","spots":["閻魔王變臉秀，最好把舞台與人物表情一起拍下來"]},"2-0":{"sc":"fish","spots":["海底隧道、魚群從頭頂游過的畫面","企鵝散步：企鵝走過步道時的近距離照片"],"tip":"企鵝表演可能因動物狀況臨時取消。"},"2-1":{"sc":"ninja","spots":["江戶時代街景","木造建築","忍者或花魁表演"]},"2-2":{"sc":"smoke","spots":["火山山體","噴出的白色地熱煙霧"]},"2-3":{"sc":"bear","spots":["棕熊活動","餵食互動畫面","熊的特寫"]},"2-4":{"sc":"lake","spots":["雕刻作品與湖景結合的構圖"]},"2-5":{"sc":"lake","spots":["湖泊","湖中島嶼","遠方山景"]},"2-7":{"sc":"lights","spots":["先拍一張廣角隧道照","再拍一張人物站在燈海中的照片"],"tip":"這是當天最值得期待的夜拍。觀光協會公告的活動期間為 11 月 1 日至隔年 4 月 27 日、點燈時間 18:00–22:00，符合 11 月 6 日的旅遊日期；仍須以當天是否如期前往為準。"},"3-0":{"sc":"lamp","spots":["運河與古老倉庫群的經典全景照"],"tip":"不要只自拍，記得拍一張「人像較小、整條運河與倉庫入鏡」的照片，最有旅行紀念感。"},"3-1":{"sc":"glass","spots":["歷史石造建築","彩色玻璃","館內燈光"]},"3-2":{"sc":"steamclock","spots":["歐風蒸氣鐘：鐘面、蒸氣與復古建築","音樂盒堂：入口、音樂盒陳列區，以及最喜歡的音樂盒特寫"]},"3-3":{"sc":"glass","spots":["堺町通：復古街道、店家招牌、甜點和玻璃工藝"]},"3-4":{"sc":"fountain","spots":["公園景觀與札幌城市背景"]},"3-5":{"sc":"clocktower","spots":["札幌時計台、北海道廳舊本廳舍"],"tip":"行程表標示「車經」，若沒有安排下車，就以車窗看到的景色為主。"},"4-1":{"sc":"castle","spots":["歐式庭園、紅磚建築、鐘塔、入口鐵門","巧克力製造工廠：製作過程與巧克力主題展示"],"tip":"這天最推薦拍「白色戀人歐式建築」。"},"4-2":{"sc":"penguin","spots":["北跳岩企鵝","世界最小型的仙子企鵝（小藍企鵝）","海洋生物及數位藝術展區"]},"4-3":{"sc":"nightview","spots":["纜車窗外的城市與森林風景","山頂展望台：札幌市 360 度夜景","幸福之鐘：與鐘、城市夜景一起合照"],"tip":"最推薦拍「藻岩山夜景」。山頂有幸福之鐘，並可購買愛情掛鎖留念。"},"5-0":{"sc":"bag","spots":["在 Outlet 拍一張出發前的旅程紀念照","把買到的服飾、鞋子、包包和伴手禮拍成戰利品合照"]},"5-1":{"sc":"bag","spots":["若機場有多餘時間，去 Royce' Chocolate World 拍巧克力展示、工廠或商品陳列"],"tip":"班機預定 15:20 起飛，最後一天的購物時間可能有限，建議先買最想要的商品，別把機場購物排得太滿。"}};
+  var BUY = {"1-0":{"items":[["海鮮攤位、海產乾貨","函館朝市有數百家店舖，除了生鮮海產，也有甜點、蔬果及加工海產"],["在地食品伴手禮","密封包裝的小包裝乾貨或加工海產，方便攜帶"]]},"1-5":{"items":[["溫泉街紀念品","鬼與閻魔王主題小物"],["傳統工藝品","小包裝零食"]],"tip":"晚餐後可自由前往。"},"2-1":{"items":[["福得屋","忍者周邊、日式小物、時代村角色商品"],["七萬石","時代村限定的 NYANMAGE 貓角色餅乾、巧克力脆片（A 級推薦）"],["寶來屋","手烤仙貝、各種日式米果"]],"tip":"這是很值得買特色商品的地方。"},"2-3":{"items":[["棕熊玩偶","可愛、容易辨識的北海道動物紀念品（A 級推薦）"],["熊造型紀念品、北海道動物主題小物",""]],"tip":"行程已寫明贈送熊餅乾或熊蘋果，可先確認包含的餵食品項，再決定是否額外購買。"},"3-1":{"items":[["玻璃杯、彩色玻璃小物、玻璃飾品","日式玻璃工藝品，推薦挑一件小而有特色的當作北海道紀念品（A 級推薦）"]],"tip":"玻璃製品易碎，請請店員妥善包裝。"},"3-2":{"items":[["水晶音樂盒、玻璃罩音樂盒","旋轉音樂盒、木製音樂盒、北海道主題音樂盒（A 級推薦）"]],"tip":"挑選前先確認音樂、尺寸與包裝；如果送禮，選盒裝完整、方便放進行李的款式。"},"3-3":{"items":[["六花亭：瑪露西奶油葡萄夾心餅乾","マルセイバターサンド，最適合優先列入清單的經典伴手禮（A 級推薦）"],["六花亭：白巧克力草莓、奶油蛋糕",""],["北菓樓：妖精之森年輪蛋糕","（A 級推薦）想帶回台灣，優先選包裝完整、方便攜帶的"],["北菓樓：北海道開拓米果","北海道開拓おかき，鹹口味（A 級推薦）"],["北菓樓：夢不思議大泡芙","新鮮甜點，比較適合當天享用"],["加碼：LeTAO 小樽洋菓子舖","行程表沒有明確列出；堺町通有自由時間再考慮，不要影響集合時間"]],"tip":"這一天的必買商品集中，建議先逛好店家再買甜點，避免太早購入容易壓壞的商品。"},"3-7":{"items":[["Nire、白樺伴手禮店","北海道零食、各種禮盒"],["札幌藥妝、鶴羽藥妝、松本清","藥妝及個人用品"],["唐吉訶德／MEGA 唐吉訶德","零食、生活雜貨及部分藥妝"],["LOFT、Bic Camera","文具、生活用品、小家電"],["UNIQLO、ABC-MART","服飾、鞋類"]],"tip":"札幌自由時間購物可留給狸小路商店街；行程說明會資料附有札幌購物地圖，標示六花亭札幌本店、北菓樓札幌本館、Nire、白樺等店家。"},"4-0":{"items":[["白色戀人餅乾","免稅店與白色戀人公園都買得到（A 級推薦）"]]},"4-1":{"items":[["白色戀人餅乾、公園限定餅乾","PICCADILLY 商店，最推薦買限定款的地點"],["白巧克力牛奶抹醬","公園限定商品"],["限定造型磁鐵及鑰匙圈","官方商店頁列出的限定紀念品"]]},"4-2":{"items":[["企鵝周邊","可留意現場商品（B 級）"]]},"4-3":{"items":[["MO-RISU 松鼠吉祥物周邊","藻岩山 Mt. MOIWA SOUVENIR SHOP，比一般零食更有景點特色"],["幸福之鐘愛情掛鎖","山頂可購買留念"]]},"5-0":{"items":[["服飾、鞋子、包包、戶外用品","折扣商品，以 Outlet 為主要任務，而不是買伴手禮（B 級）"]],"tip":"官方目前列出的商店營業時間一般為 10:00–20:00，但當天 15:20 班機，實際逛街時數以團體安排為準。先確認最想買的品牌與商品，不要把時間全部花在第一家店。"},"5-1":{"items":[["ROYCE' 生巧克力","新千歲機場 Royce' Chocolate World，A 級推薦；官方資訊標示需在 10°C 以下保存，建議最後一天買並準備保冷袋"]],"tip":"不要在行程前半段先買一大批生巧克力。"}};
+  var RANKA = [["白色戀人餅乾","白色戀人公園或免稅店","經典北海道伴手禮，適合分送同事、朋友。"],["六花亭瑪露西奶油葡萄夾心餅乾","小樽六花亭／札幌六花亭","北海道代表性甜點，適合買回家分享。"],["北菓樓妖精之森年輪蛋糕","小樽北菓樓","蛋糕型伴手禮，適合送家人。"],["北海道開拓米果","北菓樓","鹹口味選擇，適合不愛吃太甜的人。"],["ROYCE' 生巧克力","札幌可購買的店家／新千歲機場","人氣巧克力，需冷藏保存，建議旅程後段再買。"],["小樽玻璃工藝品","北一硝子館","適合買給自己或當作有紀念價值的禮物。"],["小樽音樂盒","小樽音樂盒堂","可依音樂、尺寸與外型挑選。"],["伊達時代村限定餅乾與巧克力脆片","七萬石","較有旅遊地點特色的限定商品。"],["北海道棕熊玩偶","昭和新山熊牧場商店","可愛、容易辨識的北海道動物紀念品。"],["密封包裝海產乾貨","函館朝市","可挑選小包裝乾貨或加工海產，方便攜帶。"]];
+  var RANKB = [["動物紀念品","棕熊、企鵝、MO-RISU 松鼠周邊","熊牧場、藻岩山；AOAO 可留意現場商品"],["日式工藝","忍者小物、和風飾品、手烤仙貝","伊達時代村"],["美妝藥妝","面膜、護唇膏、日常保養品等個人用品","札幌藥妝、松本清、鶴羽藥妝"],["生活雜貨","文具、收納用品、小家電","LOFT、Bic Camera"],["服飾鞋包","外套、球鞋、背包、品牌服飾","三井 Outlet"],["機場限定巧克力","ROYCE' 巧克力、限定甜點","新千歲機場 Royce' Chocolate World"]];
+  var CAM = '<svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6 H6 L7.5 4 H12.5 L14 6 H17 V15 H3 Z" class="s f-white" stroke-width="2"/><circle cx="10" cy="10.5" r="2.6" class="s f-aqua" stroke-width="2"/></svg>';
+  var BAG = '<svg class="ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 7 H16 L15.5 17 H4.5 Z" class="s f-white" stroke-width="2"/><path d="M7 7 Q7 3 10 3 Q13 3 13 7" class="s nf" stroke-width="2"/></svg>';
+  function shortName(n){ return n.split(/[（(]/)[0].replace(/[・].*$/,function(m){return m;}); }
+  function WAVE(y,dur){ var d='M-40 '+y; for(var i=0;i<20;i++) d += (i===0?' q10 -7 20 0':' t20 0'); return '<g class="waves"'+(dur?' style="animation-duration:'+dur+'s"':'')+'><path d="'+d+'" class="s nf" stroke-width="2.2"/></g>'; }
+  function BG(c){ return '<rect width="320" height="72" class="'+c+'"/>'; }
+  function CLOUD(x,y,s,dur){ return '<g transform="translate('+x+' '+y+') scale('+s+')"><g class="drift"'+(dur?' style="animation-duration:'+dur+'s"':'')+'><path d="M20 30 q-14 0 -14 -11 q0 -11 15 -11 q4 -12 20 -11 q15 -1 19 12 q14 1 14 10 q0 11 -14 11 z" class="s f-white"/></g></g>'; }
+  function STARAT(x,y,s,delay){ return '<g transform="translate('+x+' '+y+')"><use href="#star" class="tw" width="'+s+'" height="'+s+'" x="'+(-s/2)+'" y="'+(-s/2)+'"'+(delay?' style="animation-delay:'+delay+'s"':'')+'/></g>'; }
+  function LIGHTS(){
+    var out='', cls=['f-coral','f-yellow','f-aqua','f-green'];
+    for(var i=0;i<=16;i++){ var x=34+i*16.5, y=64-46*Math.sin(Math.PI*i/16); out += '<circle class="tw '+cls[i%4]+'" cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="4.2" style="animation-delay:'+(i*0.14).toFixed(2)+'s"/>'; }
+    for(var j=1;j<16;j++){ var x2=34+j*16.5, y2=66-26*Math.sin(Math.PI*j/16); out += '<circle class="tw '+cls[(j+2)%4]+'" cx="'+x2.toFixed(1)+'" cy="'+y2.toFixed(1)+'" r="3" style="animation-delay:'+(j*0.1+0.4).toFixed(2)+'s"/>'; }
+    return out;
+  }
+  var SC = {
+    nightview: BG('f-aqua-l')+STARAT(40,14,14,0)+STARAT(250,12,12,.9)+'<path d="M-10 74 Q80 20 170 28 Q250 34 330 74Z" class="s f-green"/><path d="M70 60 L150 30" class="s nf" stroke-width="2.4"/><g class="gondola" style="--dx:60px;--dy:-22px"><rect x="62" y="58" width="16" height="11" rx="4" class="s f-coral" stroke-width="2.4"/></g><g class="f-yellow"><circle class="tw" cx="200" cy="50" r="3"/><circle class="tw" cx="226" cy="58" r="3" style="animation-delay:.5s"/><circle class="tw" cx="252" cy="64" r="3" style="animation-delay:1s"/><circle class="tw" cx="182" cy="62" r="3" style="animation-delay:1.4s"/><circle class="tw" cx="276" cy="66" r="3" style="animation-delay:.2s"/></g>',
+    crab: BG('f-aqua')+'<rect y="58" width="320" height="14" class="f-yellow-l"/><path d="M0 58H320" class="s"/><g transform="translate(160 40)"><g class="bob" style="animation-duration:2.6s"><ellipse rx="26" ry="15" class="s f-coral"/><circle cx="-8" cy="-14" r="3" class="f-ink"/><circle cx="8" cy="-14" r="3" class="f-ink"/><g class="wave-arm"><circle cx="-34" cy="-10" r="9" class="s f-coral"/></g><g class="wave-arm" style="animation-delay:-.6s"><circle cx="34" cy="-10" r="9" class="s f-coral"/></g><path d="M-14 12 l-6 8 M-4 14 l-3 9 M6 14 l3 9 M16 12 l6 8" class="s nf" stroke-width="2.6"/></g></g><g class="f-white"><circle class="s rise" cx="60" cy="56" r="4" stroke-width="2"/><circle class="s rise" cx="260" cy="56" r="5" style="animation-delay:1s" stroke-width="2"/></g>',
+    fort: BG('f-yellow-l')+'<g class="pulse"><path d="M160 4 L170 28 L196 29 L176 46 L183 70 L160 57 L137 70 L144 46 L124 29 L150 28Z" class="s f-aqua"/></g><path d="M160 20 L165 33 L179 34 L168 43 L172 56 L160 49 L148 56 L152 43 L141 34 L155 33Z" class="s f-green" stroke-width="2.4"/>'+STARAT(60,22,14,0)+STARAT(262,50,12,.8)+STARAT(250,14,10,1.5),
+    trainsea: BG('f-aqua-l')+'<rect y="34" width="320" height="38" class="f-aqua"/><path d="M0 34H320" class="s"/>'+WAVE(48)+WAVE(62,4)+'<g class="bob"><circle cx="280" cy="16" r="11" class="s f-yellow" stroke-width="2.4"/></g><g class="train" style="animation-duration:9s"><rect x="0" y="14" width="86" height="18" rx="7" class="s f-coral" stroke-width="2.6"/><rect x="8" y="19" width="12" height="8" rx="3" class="s f-aqua-l" stroke-width="2"/><rect x="28" y="19" width="12" height="8" rx="3" class="s f-aqua-l" stroke-width="2"/><rect x="48" y="19" width="12" height="8" rx="3" class="s f-aqua-l" stroke-width="2"/><circle cx="78" cy="23" r="3" class="s f-yellow" stroke-width="2"/></g><g class="f-yellow"><circle class="tw" cx="60" cy="42" r="2.6"/><circle class="tw" cx="130" cy="40" r="2.6" style="animation-delay:.6s"/><circle class="tw" cx="220" cy="43" r="2.6" style="animation-delay:1.2s"/></g>',
+    lake: BG('f-aqua-l')+CLOUD(24,4,.7,10)+'<path d="M196 58 L238 12 L280 58Z" class="s f-aqua"/><path d="M228 24 L238 12 L248 24 L242 22 L238 26 L234 22Z" class="s f-white" stroke-width="2"/><rect y="52" width="320" height="20" class="f-aqua"/><path d="M0 52H320" class="s"/>'+WAVE(62)+'<path d="M60 52 Q80 38 104 52Z" class="s f-green"/>',
+    steam: BG('f-yellow-l')+'<path d="M0 72 Q60 38 120 50 Q180 62 240 44 Q290 34 320 48 V72Z" class="s f-coral"/><circle cx="80" cy="60" r="5" class="s f-yellow" stroke-width="2.4"/><circle cx="210" cy="56" r="6" class="s f-yellow" stroke-width="2.4"/><g class="f-white"><circle class="s rise" cx="110" cy="44" r="8"/><circle class="s rise" cx="146" cy="40" r="7" style="animation-delay:1s"/><circle class="s rise" cx="186" cy="38" r="9" style="animation-delay:2s"/><circle class="s rise" cx="250" cy="40" r="6" style="animation-delay:.5s"/></g>',
+    oni: BG('f-yellow-l')+'<g transform="translate(160 42)"><g class="bob" style="animation-duration:2.8s"><path d="M-24 -16 L-18 -36 L-8 -20Z" class="s f-yellow" stroke-width="2.4"/><path d="M24 -16 L18 -36 L8 -20Z" class="s f-yellow" stroke-width="2.4"/><circle r="24" class="s f-coral"/><circle cx="-9" cy="-4" r="3.4" class="f-paper"/><circle cx="9" cy="-4" r="3.4" class="f-paper"/><circle cx="-9" cy="-4" r="1.5" class="f-ink"/><circle cx="9" cy="-4" r="1.5" class="f-ink"/><path d="M-15 -11 L-5 -8 M15 -11 L5 -8" class="s nf" stroke-width="2.4"/><path d="M-10 9 Q0 17 10 9" class="s f-paper" stroke-width="2.4"/></g></g><g transform="translate(60 14)"><g class="sway"><path d="M0 0 V8" class="s nf" stroke-width="2.4"/><rect x="-9" y="8" width="18" height="24" rx="6" class="s f-coral" stroke-width="2.4"/></g></g><g transform="translate(262 14)"><g class="sway" style="animation-delay:-1.2s"><path d="M0 0 V8" class="s nf" stroke-width="2.4"/><rect x="-9" y="8" width="18" height="24" rx="6" class="s f-coral" stroke-width="2.4"/></g></g>',
+    fish: BG('f-aqua')+'<path d="M-4 72 V44 Q160 -14 324 44 V72Z" class="f-aqua-l"/><path d="M6 68 V46 Q160 -4 314 46 V68" class="s nf"/><g class="swim"><ellipse cx="60" cy="30" rx="16" ry="10" class="s f-yellow" stroke-width="2.6"/><path d="M44 30 L34 23 L34 37Z" class="s f-coral" stroke-width="2.4"/><circle cx="68" cy="27" r="2" class="f-ink"/></g><g class="swim" style="animation-duration:8s;animation-delay:-3s"><ellipse cx="110" cy="50" rx="12" ry="8" class="s f-coral" stroke-width="2.4"/><path d="M98 50 L90 44 L90 56Z" class="s f-yellow" stroke-width="2.2"/><circle cx="116" cy="48" r="1.8" class="f-ink"/></g><g class="f-white"><circle class="s rise" cx="268" cy="60" r="4" stroke-width="2"/><circle class="s rise" cx="282" cy="52" r="3" style="animation-delay:1s" stroke-width="2"/></g>',
+    ninja: BG('f-yellow-l')+'<path d="M26 40 L68 18 L110 40Z" class="s f-coral"/><rect x="38" y="40" width="60" height="26" class="s f-paper"/><rect x="58" y="46" width="20" height="20" class="s f-yellow" stroke-width="2.4"/><g transform="translate(196 38)"><path class="spin s f-coral" d="M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6 Z"/><circle r="4" class="s f-paper" stroke-width="2"/></g><g transform="translate(262 24)"><path class="spin s f-aqua" style="animation-duration:4s" d="M0 -14 L4 -4 L14 0 L4 4 L0 14 L-4 4 L-14 0 L-4 -4 Z"/></g>',
+    smoke: BG('f-aqua-l')+CLOUD(200,4,.6,12)+'<path d="M70 72 L136 22 L188 26 L256 72Z" class="s f-coral"/><g class="f-white"><circle class="s rise" cx="150" cy="20" r="8"/><circle class="s rise" cx="168" cy="12" r="6" style="animation-delay:1s"/><circle class="s rise" cx="158" cy="6" r="5" style="animation-delay:2s"/></g>',
+    bear: BG('f-yellow-l')+'<rect y="62" width="320" height="10" class="f-green"/><path d="M0 62H320" class="s"/><g transform="translate(160 56) scale(.78)"><g class="bob" style="animation-duration:2.6s"><ellipse cy="34" rx="42" ry="30" class="s f-yellow"/><circle cx="-24" cy="-23" r="10" class="s f-yellow"/><circle cx="24" cy="-23" r="10" class="s f-yellow"/><circle cx="-24" cy="-23" r="4.5" class="f-coral"/><circle cx="24" cy="-23" r="4.5" class="f-coral"/><circle cy="-4" r="30" class="s f-yellow"/><ellipse cy="7" rx="14" ry="10" class="s f-paper" stroke-width="2.6"/><ellipse cy="2" rx="4.6" ry="3.3" class="f-ink"/><circle cx="-11" cy="-11" r="3.2" class="f-ink"/><circle cx="11" cy="-11" r="3.2" class="f-ink"/><circle cx="-21" cy="2" r="5" class="f-coral"/><circle cx="21" cy="2" r="5" class="f-coral"/><path d="M-5 10 Q0 14 5 10" class="s nf" stroke-width="2.4"/><g class="wave-arm"><ellipse cx="-44" cy="24" rx="9" ry="15" class="s f-yellow"/></g></g></g>'+STARAT(60,20,14,0)+STARAT(270,24,12,1),
+    lights: BG('f-aqua-l')+LIGHTS(),
+    lamp: BG('f-aqua-l')+'<rect x="16" y="20" width="96" height="36" class="s f-coral"/><g class="f-paper"><rect class="s" x="26" y="28" width="14" height="14" rx="2" stroke-width="2.2"/><rect class="s" x="50" y="28" width="14" height="14" rx="2" stroke-width="2.2"/><rect class="s" x="74" y="28" width="14" height="14" rx="2" stroke-width="2.2"/></g><path d="M200 56 V22" class="s nf" stroke-width="3"/><circle class="pulse s f-yellow" cx="200" cy="18" r="8" stroke-width="2.4"/><rect y="54" width="320" height="18" class="f-aqua"/><path d="M0 54H320" class="s"/>'+WAVE(63)+'<g class="bob"><path d="M246 58 H284 L276 68 H254Z" class="s f-yellow" stroke-width="2.4"/><path d="M265 58 V44 L276 58" class="s f-white" stroke-width="2.2"/></g>',
+    glass: BG('f-aqua-l')+'<path d="M132 12 H188 L180 62 H140Z" class="s f-white"/><path d="M136 36 H184 L180 62 H140Z" class="f-aqua"/><path d="M136 36 H184" class="s nf" stroke-width="2.4"/><path d="M78 40 H108 L104 62 H82Z" class="s f-yellow-l" stroke-width="2.6"/><path d="M232 34 H262 L258 62 H236Z" class="s f-coral-l" stroke-width="2.6"/>'+STARAT(118,16,14,0)+STARAT(206,14,12,.7)+STARAT(278,28,12,1.3)+STARAT(60,26,10,.4),
+    steamclock: BG('f-yellow-l')+'<rect x="136" y="22" width="48" height="46" rx="6" class="s f-paper"/><path d="M130 22 L160 6 L190 22Z" class="s f-green"/><circle cx="160" cy="40" r="12" class="s f-yellow" stroke-width="2.4"/><path d="M160 40 V33 M160 40 H166" class="s nf" stroke-width="2.2"/><g class="f-white"><circle class="s rise" cx="206" cy="30" r="6" stroke-width="2.2"/><circle class="s rise" cx="216" cy="20" r="5" style="animation-delay:1s" stroke-width="2.2"/><circle class="s rise" cx="210" cy="12" r="4" style="animation-delay:2s" stroke-width="2.2"/></g><rect y="64" width="320" height="8" class="f-aqua"/><path d="M0 64H320" class="s"/>',
+    fountain: BG('f-aqua-l')+'<circle cx="52" cy="40" r="18" class="s f-green"/><rect x="48" y="52" width="8" height="12" class="s f-coral" stroke-width="2.4"/><circle cx="268" cy="40" r="18" class="s f-green"/><rect x="264" y="52" width="8" height="12" class="s f-coral" stroke-width="2.4"/><path d="M112 58 Q160 76 208 58 Z" class="s f-aqua"/><path d="M160 58 V44" class="s nf" stroke-width="3"/><g class="f-aqua"><circle class="s rise" cx="148" cy="46" r="4" stroke-width="2"/><circle class="s rise" cx="160" cy="44" r="5" style="animation-delay:.8s" stroke-width="2"/><circle class="s rise" cx="172" cy="46" r="4" style="animation-delay:1.6s" stroke-width="2"/></g>',
+    clocktower: BG('f-aqua-l')+CLOUD(40,6,.6,11)+'<rect x="136" y="22" width="48" height="46" class="s f-paper"/><path d="M130 22 L160 4 L190 22Z" class="s f-green"/><circle cx="160" cy="40" r="12" class="s f-yellow" stroke-width="2.4"/><g transform="translate(160 40)"><path class="spin" d="M0 -8 V8" style="stroke:#3E3A39;stroke-width:2.4;stroke-linecap:round"/></g><circle cx="160" cy="40" r="1.8" class="f-ink"/><g class="f-yellow"><circle class="tw" cx="240" cy="40" r="3"/><circle class="tw" cx="258" cy="52" r="3" style="animation-delay:.6s"/></g>',
+    castle: BG('f-yellow-l')+'<rect x="108" y="28" width="104" height="38" class="s f-coral"/><path d="M102 30 L160 10 L218 30Z" class="s f-paper"/><g class="f-paper"><rect class="s" x="120" y="38" width="16" height="16" rx="2" stroke-width="2.2"/><rect class="s" x="152" y="38" width="16" height="16" rx="2" stroke-width="2.2"/><rect class="s" x="184" y="38" width="16" height="16" rx="2" stroke-width="2.2"/></g><g class="sway"><path d="M160 10 V0" class="s nf" stroke-width="2.4"/><path d="M160 0 L174 4 L160 8Z" class="s f-aqua" stroke-width="2"/></g>'+STARAT(60,26,14,0)+STARAT(266,22,12,.9),
+    penguin: BG('f-aqua-l')+'<rect y="62" width="320" height="10" class="f-white"/><path d="M0 62H320" class="s"/><g transform="translate(160 62)"><g class="waddle"><ellipse cy="-24" rx="18" ry="24" class="s f-ink"/><ellipse cy="-18" rx="11" ry="17" class="f-paper"/><circle cx="-6" cy="-36" r="2.4" class="f-paper"/><circle cx="6" cy="-36" r="2.4" class="f-paper"/><path d="M-5 -32 L5 -32 L0 -26Z" class="s f-yellow" stroke-width="2"/><ellipse cx="-9" cy="0" rx="7" ry="3" class="s f-yellow" stroke-width="2.2"/><ellipse cx="9" cy="0" rx="7" ry="3" class="s f-yellow" stroke-width="2.2"/></g></g><g class="f-white"><circle class="s rise" cx="60" cy="56" r="4" stroke-width="2"/><circle class="s rise" cx="262" cy="54" r="5" style="animation-delay:1s" stroke-width="2"/></g>'+STARAT(80,16,12,0)+STARAT(240,18,12,.8),
+    bag: BG('f-aqua-l')+'<g transform="translate(160 68)"><g class="bob" style="animation-duration:2.8s"><path d="M-24 -50 H24 L28 0 H-28Z" class="s f-coral"/><path d="M-10 -50 Q-10 -64 0 -64 Q10 -64 10 -50" class="s nf"/><path d="M0 -20 C-14 -30 -6 -38 0 -32 C6 -38 14 -30 0 -20Z" class="s f-paper" stroke-width="2.2"/></g></g><g transform="translate(88 68)"><g class="bob" style="animation-duration:3.4s"><path d="M-16 -30 H16 L19 0 H-19Z" class="s f-yellow" stroke-width="2.6"/><path d="M-7 -30 Q-7 -40 0 -40 Q7 -40 7 -30" class="s nf" stroke-width="2.6"/></g></g><g transform="translate(232 68)"><g class="bob" style="animation-duration:3.1s"><path d="M-16 -34 H16 L19 0 H-19Z" class="s f-green" stroke-width="2.6"/><path d="M-7 -34 Q-7 -44 0 -44 Q7 -44 7 -34" class="s nf" stroke-width="2.6"/></g></g>'+STARAT(40,16,12,0)+STARAT(284,18,12,.9)
+  };
+  function sceneHtml(id){
+    var ph = PHOTO[id]; if(!ph || !SC[ph.sc]) return '';
+    return '<svg class="mini" viewBox="0 0 320 72" aria-hidden="true" focusable="false">'+SC[ph.sc]+'</svg>';
+  }
+  function extraHtml(id){
+    var out = '', ph = PHOTO[id], by = BUY[id];
+    if(ph){
+      out += '<div class="sh-sec photo"><h4><i></i>必拍</h4><ul>'+ph.spots.map(function(t){ return '<li>'+t+'</li>'; }).join('')+'</ul>'+(ph.tip?'<p class="ptip">'+ph.tip+'</p>':'')+'</div>';
+    }
+    if(by){
+      out += '<div class="sh-sec buy"><h4><i></i>必買</h4><ul>'+by.items.map(function(t){ return '<li><b>'+t[0]+'</b>'+(t[1]?'<span>'+t[1]+'</span>':'')+'</li>'; }).join('')+'</ul>'+(by.tip?'<p class="ptip">'+by.tip+'</p>':'')+'</div>';
+    }
+    return out;
+  }
+  function daySummary(d){
+    var day = DAYS[d], ph = [], by = [];
+    day.stops.forEach(function(s,k){
+      var id = d+'-'+k, n = shortName(s.name);
+      if(PHOTO[id]) ph.push('<button type="button" class="sumchip" data-open="'+k+'">'+n+'</button>');
+      if(BUY[id]) by.push('<button type="button" class="sumchip" data-open="'+k+'">'+n+'</button>');
+    });
+    if(!ph.length && !by.length) return '';
+    return '<div class="dsum">'+(ph.length?'<div class="sumrow"><span class="sumlab photo">'+CAM+'今日必拍</span><div class="sumchips">'+ph.join('')+'</div></div>':'')+(by.length?'<div class="sumrow"><span class="sumlab buy">'+BAG+'今日必買</span><div class="sumchips">'+by.join('')+'</div></div>':'')+'<p class="sumhint">點名稱可直接查看拍照與購買重點。</p></div>';
+  }
+
+  var TAGC = {'飛機':'aqua','專車':'yellow','纜車':'coral','鐵道':'green','步行':'green','美食':'coral','住宿':'aqua','自由活動':'aqua'};
+
+  var STAYS = [
+    {night:'1', date:'11/04', city:'函館', names:['湯之川觀光溫泉飯店'], desc:'位於函館湯之川溫泉區，離空港與市區都近，抵達當晚可直接泡湯休息。', tag:'溫泉', icon:'onsen'},
+    {night:'2', date:'11/05', city:'登別', names:['登別石水亭溫泉飯店'], desc:'被大自然環繞、歷史悠久，位於著名的登別溫泉區；植物性湯種泡起來滑嫩，有「美人湯」之稱。', tag:'溫泉', icon:'onsen'},
+    {night:'3', date:'11/06', city:'洞爺湖', names:['洞爺湖畔亭溫泉飯店'], desc:'位於洞爺湖溫泉區，可沿湖散步，夜晚泡湯賞星空。', tag:'溫泉', icon:'onsen'},
+    {night:'4–5', date:'11/07–11/08', city:'札幌', names:['ビスタ札幌大通'], desc:'連住兩晚，位於札幌大通一帶，方便自由逛街與夜訪。', tag:'市區', icon:'city'}
+  ];
+
+  var TODOS = [
+    {g:'出發前', items:['護照效期須在 2027/05/11 之後','填寫 Visit Japan Web（入境與海關）','準備日幣現金與信用卡','下載離線地圖與翻譯 App','買好網卡或 eSIM','11/04 09:30 桃園機場第一航廈星宇航空 7 號團體櫃台集合','役男需先辦好短期出境核准（如適用）']},
+    {g:'行李', items:['保暖外套、發熱衣、手套與帽子（函館山夜晚風大）','防滑好走的鞋子','行動電源（登機請隨身攜帶）','充電線、充電器、常備藥品','摺疊購物袋（免稅店與 OUTLET）']},
+    {g:'旅途中', items:['溫泉用小毛巾與防水袋（登別、洞爺湖）','預留行李空間給伴手禮','第 6 天提早打包，15:20 班機起飛','列好想買的伴手禮清單','準備小費（參考每人每天 NT$300）']}
+  ];
+
+  /* ---------- 工具 ---------- */
+  var $ = function(id){return document.getElementById(id)};
+  function pad(n){return n<10?'0'+n:''+n}
+
+  /* ---------- 日期分頁 ---------- */
+  var tabs = $('tabs'), panel = $('panel'), cur = 0;
+  tabs.innerHTML = DAYS.map(function(d,i){
+    return '<button class="tab" role="tab" id="tab'+i+'" aria-controls="panel" aria-selected="false" tabindex="-1" data-i="'+i+'"><b>D'+(i+1)+'</b><small>'+d.d+'</small></button>';
+  }).join('');
+
+  var CHECK = '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5 L8.5 15 L16 5.5" class="s nf" stroke-width="3.2"/></svg>';
+  var STARB = '<svg viewBox="-10 -10 20 20" aria-hidden="true"><path d="M0 -8 L2.6 -2.6 L8 0 L2.6 2.6 L0 8 L-2.6 2.6 L-8 0 L-2.6 -2.6 Z" class="s f-yellow" stroke-width="2.4"/></svg>';
+
+  function renderDay(i, animate){
+    var d = DAYS[i];
+    var items = d.stops.map(function(s,k){
+      var tags = (s.tags||[]).map(function(t){return '<span class="tag '+(TAGC[t]||'aqua')+'">'+t+'</span>'}).join('')+(PHOTO[i+'-'+k]?'<span class="tag photo">'+CAM+'必拍</span>':'')+(BUY[i+'-'+k]?'<span class="tag buy">'+BAG+'必買</span>':'');
+      return '<li class="'+(s.must?'must':'')+'"><span class="dot">'+(k+1)+'</span><div class="tcard" role="button" tabindex="0" data-k="'+k+'" aria-haspopup="dialog" aria-label="查看詳細介紹：'+s.name+'"><div class="thead">'+
+        (s.t?'<span class="time">'+s.t+'</span>':'')+'<h4>'+s.name+'</h4>'+
+        (s.must?'<span class="must-badge">'+STARB+'必去</span>':'')+'</div>'+
+        '<div class="tags">'+tags+'</div><p>'+s.desc+'</p>'+(s.note?'<p class="note">'+s.note+'</p>':'')+'<span class="more-hint">詳細介紹＋地圖 ›</span></div></li>';
+    }).join('');
+    var st = d.stay==null ? '返抵桃園，結束旅程。' : STAYS[d.stay].names.join('／');
+    panel.setAttribute('aria-labelledby','tab'+i);
+    panel.innerHTML =
+      '<div class="day-head">'+ILL[i]+'<div><small>DAY '+(i+1)+' ・ '+d.d+'（'+d.w+'）</small><h3>'+d.title+'</h3></div></div>'+
+      '<ol class="timeline">'+items+'</ol>'+daySummary(i)+
+      '<div class="meals"><h4>今日餐食</h4><dl><dt>早</dt><dd>'+d.meals.b+'</dd><dt>午</dt><dd>'+d.meals.l+'</dd><dt>晚</dt><dd>'+d.meals.d+'</dd></dl></div>'+
+      '<div class="dstay"><h4>今晚住宿</h4>'+st+'</div>';
+    panel.classList.remove('enter');
+    if(animate){ void panel.offsetWidth; panel.classList.add('enter'); }
+  }
+
+  function selectDay(i, animate, focus){
+    cur = i;
+    var btns = tabs.children;
+    for(var k=0;k<btns.length;k++){
+      var on = k===i;
+      btns[k].setAttribute('aria-selected', on?'true':'false');
+      btns[k].tabIndex = on?0:-1;
+    }
+    renderDay(i, animate);
+    if(focus) btns[i].focus();
+  }
+  tabs.addEventListener('click', function(e){
+    var b = e.target.closest('.tab'); if(!b) return;
+    selectDay(+b.dataset.i, true, false);
+  });
+  tabs.addEventListener('keydown', function(e){
+    var n = cur;
+    if(e.key==='ArrowRight') n = (cur+1)%DAYS.length;
+    else if(e.key==='ArrowLeft') n = (cur+DAYS.length-1)%DAYS.length;
+    else if(e.key==='Home') n = 0;
+    else if(e.key==='End') n = DAYS.length-1;
+    else return;
+    e.preventDefault(); selectDay(n, true, true);
+  });
+
+  /* ---------- 景點詳細視窗 ---------- */
+  var swrap = $('sheetwrap'), sheet = $('sheet'), sbody = $('sh-body'), sCard = null, sD = 0, sK = 0, sMode = 'day';
+  var PIN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22 C6 15 5 12 5 9 A7 7 0 0 1 19 9 C19 12 18 15 12 22 Z" class="s f-coral"/><circle cx="12" cy="9" r="2.6" class="s f-paper" stroke-width="2"/></svg>';
+  function mapUrl(q){ return 'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q); }
+  /* ---------- 網友分享（第三方連結，皆已開啟確認發布日期落在近兩年） ---------- */
+  var REVIEWS = {"0-1":[{"s":"部落格","t":"北海道函館山夜景｜搭纜車賞世界三大鑽石級夜景","u":"https://bunnyann.tw/?p=603","d":"2025-11","n":"纜車票價、營運時間與山頂保暖提醒"},{"s":"部落格","t":"函館自由行完結篇：函館山百萬夜景、五稜郭散策","u":"https://vocus.cc/article/680e2937fd89780001d5b23c","d":"2025-05","n":"等待百萬夜景、山頂用餐與五稜郭散策"},{"s":"部落格","t":"日本函館自由行攻略｜夜景、朝市、五稜郭、住宿與交通","u":"https://zoebitalk.com/japan/hokkaido/hakodate/","d":"2026-07","n":"函館夜景、朝市與市區景點的交通整理"}],"0-2":[{"s":"部落格","t":"函館湯之川溫泉精選住宿推薦","u":"https://tessatravel.tw/yunokawaonsenhotel/","d":"2025-12","n":"七間湯之川溫泉住宿與一泊二食價格比較"}],"1-0":[{"s":"部落格","t":"函館朝市完整全攻略","u":"https://camellia8283.pixnet.net/blog/posts/16168152740","d":"2025-01","n":"三座室內市場、惠比壽屋海鮮丼與交通營業時間"},{"s":"部落格","t":"日本函館自由行攻略｜夜景、朝市、五稜郭、住宿與交通","u":"https://zoebitalk.com/japan/hokkaido/hakodate/","d":"2026-07","n":"函館夜景、朝市與市區景點的交通整理"}],"1-1":[{"s":"部落格","t":"五稜郭公園全攻略：星形城池、櫻花與夜景","u":"https://www.funliday.com/posts/?p=55695","d":"2025-01","n":"五稜郭歷史、四季景色、交通與門票"},{"s":"部落格","t":"函館自由行完結篇：函館山百萬夜景、五稜郭散策","u":"https://vocus.cc/article/680e2937fd89780001d5b23c","d":"2025-05","n":"等待百萬夜景、山頂用餐與五稜郭散策"}],"1-2":[{"s":"部落格","t":"函館火車站搜集之旅","u":"https://vocus.cc/article/68a140ecfd897800012f0bc9","d":"2025-08","n":"搭道南漁火鐵道到木古內的心得，班次少要先查"}],"1-3":[{"s":"部落格","t":"函館：大沼公園一日遊","u":"https://vocus.cc/article/69d31df3fd89780001d91300","d":"2026-04","n":"第一人稱遊記：步道、遊覽船與午餐"},{"s":"部落格","t":"大沼國定公園四季玩法：賞櫻、賞楓、冰釣","u":"https://www.funliday.com/posts/?p=47730","d":"2026-05","n":"四季玩法、交通與活動整理"}],"1-4":[{"s":"部落格","t":"登別散策：地獄谷、溫泉街、拉麵、甘味","u":"https://vocus.cc/article/696a357ffd89780001efc7e5","d":"2026-01","n":"冬季逛地獄谷與溫泉街，貴泉堂伴手禮"},{"s":"部落格","t":"登別景點地圖：溫泉街、大湯沼與地獄谷","u":"https://rawtraveltales.com/noboribetsu/","d":"2025-02","n":"登別三大區域地圖與半日行程"}],"1-5":[{"s":"部落格","t":"登別溫泉街：閻魔堂、貴泉堂與間歇泉","u":"https://flysonice30.com/?p=30712","d":"2026-07","n":"溫泉街散步、閻魔堂機關偶與伴手禮店"},{"s":"部落格","t":"登別散策：地獄谷、溫泉街、拉麵、甘味","u":"https://vocus.cc/article/696a357ffd89780001efc7e5","d":"2026-01","n":"冬季逛地獄谷與溫泉街，貴泉堂伴手禮"},{"s":"部落格","t":"登別景點地圖：溫泉街、大湯沼與地獄谷","u":"https://rawtraveltales.com/noboribetsu/","d":"2025-02","n":"登別三大區域地圖與半日行程"}],"1-6":[{"s":"部落格","t":"登別溫泉・閻魔堂・閻魔大王變臉秀","u":"https://1817box.tw/enmado/","d":"2025-09","n":"免費的機關閻王變臉秀，順路可看"},{"s":"部落格","t":"登別溫泉街：閻魔堂、貴泉堂與間歇泉","u":"https://flysonice30.com/?p=30712","d":"2026-07","n":"溫泉街散步、閻魔堂機關偶與伴手禮店"}],"2-0":[{"s":"部落格","t":"尼克斯海洋公園｜看小企鵝緩慢散步","u":"https://bunnyann.tw/blog-post_1216/","d":"2026-04","n":"企鵝遊行、海豚海獅秀與拍照建議"},{"s":"部落格","t":"北海道登別景點10選","u":"https://www.funliday.com/posts/?p=40531","d":"2025-02","n":"登別十景整理，含尼克斯與伊達時代村（2024-10 發布，2025-02 更新）"}],"2-1":[{"s":"部落格","t":"北海道登別景點10選","u":"https://www.funliday.com/posts/?p=40531","d":"2025-02","n":"登別十景整理，含尼克斯與伊達時代村（2024-10 發布，2025-02 更新）"}],"2-3":[{"s":"部落格","t":"昭和新山熊牧場｜看了會揪心，不建議景點","u":"https://bunnyann.tw/blog-post_7332/","d":"2025-11","n":"作者不推薦：熊被關在狹小空間；附票價與餵食資訊"}],"2-4":[{"s":"部落格","t":"北海道洞爺湖景點、住宿TOP6","u":"https://www.funliday.com/posts/lake-toya/","d":"2024-12","n":"洞爺湖周邊景點含雕刻公園、住宿推薦（2026-07 更新）"}],"2-5":[{"s":"部落格","t":"北海道不自駕｜洞爺湖畔甜點、洞龍足湯眺望羊蹄山","u":"https://vocus.cc/article/6796f6a7fd8978000167cf15","d":"2025-01","n":"不自駕洞爺湖一日遊，洞龍足湯景觀"}],"2-6":[{"s":"部落格","t":"北海道洞爺湖景點、住宿TOP6","u":"https://www.funliday.com/posts/lake-toya/","d":"2024-12","n":"洞爺湖周邊景點含雕刻公園、住宿推薦（2026-07 更新）"}],"3-0":[{"s":"部落格","t":"小樽自由行懶人包：景點 TOP6、美食、交通","u":"https://roo.cash/blog/?p=103576","d":"2025-05","n":"小樽運河、音樂盒堂與札幌往返交通"},{"s":"部落格","t":"札幌往返小樽交通方式及小樽景點介紹","u":"https://vocus.cc/article/6948ef0cfd897800010aaf61","d":"2025-12","n":"JR 巴士到小樽，逛運河、音樂盒堂等"}],"3-2":[{"s":"部落格","t":"小樽音樂盒堂本館","u":"https://vocus.cc/article/67de3495fd89780001ab0249","d":"2025-03","n":"蒸氣鐘、館內商品、交通與營業資訊"},{"s":"部落格","t":"札幌往返小樽交通方式及小樽景點介紹","u":"https://vocus.cc/article/6948ef0cfd897800010aaf61","d":"2025-12","n":"JR 巴士到小樽，逛運河、音樂盒堂等"},{"s":"部落格","t":"小樽自由行懶人包：景點 TOP6、美食、交通","u":"https://roo.cash/blog/?p=103576","d":"2025-05","n":"小樽運河、音樂盒堂與札幌往返交通"}],"3-5":[{"s":"旅客評價","t":"北海道廳舊本廳舍（紅磚館）旅客評論","u":"https://www.gltjp.com/en/directory/review/14003/","d":"2026-10","n":"英文旅客評論 5 則，談紅磚館外觀與展覽"}],"4-1":[{"s":"部落格","t":"白色戀人公園介紹與交通停車資訊","u":"https://travel.yam.com/article/137608","d":"2025-07","n":"免費園區、付費工廠體驗、交通與停車"}],"4-2":[{"s":"部落格","t":"札幌水族館 AOAO SAPPORO｜近距離看企鵝","u":"https://bunnyann.tw/aoao-sapporo/","d":"2026-04","n":"企鵝近看，但燈光偏暗、動線不佳（作者 3 顆星）"}],"4-3":[{"s":"部落格","t":"札幌藻岩山：幸福之鐘、超美夜景攻略","u":"https://travel.yam.com/article/137758","d":"2025-07","n":"纜車票價與營業時間、夏冬夜景時段"}],"5-0":[{"s":"部落格","t":"北海道購物攻略：三井 OUTLET 札幌北廣島","u":"https://www.funliday.com/posts/?p=49922","d":"2024-12","n":"交通、營業時間與必買品牌（2026-09 更新）"}],"h0":[{"s":"旅客評價","t":"湯の川観光ホテル 祥苑 旅客評價（日文）","u":"https://4travel.jp/dm_hotel-10040498","d":"2025-07","n":"4travel 日文口碑 97 則，自助餐與接駁；有舊館況味的評價"},{"s":"部落格","t":"函館湯之川溫泉精選住宿推薦","u":"https://tessatravel.tw/yunokawaonsenhotel/","d":"2025-12","n":"七間湯之川溫泉住宿與一泊二食價格比較"}],"h1":[{"s":"旅客評價","t":"登別石水亭 旅客評價（日文）","u":"https://4travel.jp/dm_hotel-10040719","d":"2026-10","n":"4travel 日文口碑 160 則，露天風呂與自助餐"}],"h2":[{"s":"旅客評價","t":"洞爺湖畔亭 旅客評價（日文）","u":"https://4travel.jp/dm_hotel-10040647","d":"2026-09","n":"4travel 日文口碑 94 則，大浴場與湖景"}],"h3":[{"s":"部落格","t":"「ビスタ札幌大通」宿泊記 2026（日文）","u":"https://www.trvlogue.com/ja/vista-sapporo-odori-review","d":"2026-08","n":"日本部落客入住 3 晚：位置便利、衛浴分離，提醒空氣乾燥"},{"s":"部落格","t":"Hotel Vista Sapporo Odori 住宿心得（日文）","u":"https://johnny88.jp/hotel-vista-sapporo-odori","d":"2026-06","n":"衛浴分離、早餐海鮮多；缺點是無咖啡茶包、Wi-Fi 不穩"}]};
+  var NOREV = {"0-0":1,"4-0":1,"5-1":1,"5-2":1};
+  var SRCC = {"部落格":"aqua","旅客評價":"green","Dcard":"coral","Threads":"yellow","Instagram":"yellow","新聞":"green","YouTube":"coral"};
+  function reviewsHtml(id, kw){
+    if(NOREV[id]) return '';
+    var ls = (REVIEWS[id]||[]).slice(0,5), q = encodeURIComponent(kw);
+    var h = '<div class="sh-sec rv"><h4><i></i>網友分享</h4>';
+    if(ls.length){
+      h += '<div class="rvlist">'+ls.map(function(r){
+        return '<a class="rvitem" href="'+r.u+'" target="_blank" rel="noopener noreferrer nofollow"><span class="rvtop"><span class="src '+(SRCC[r.s]||'aqua')+'">'+r.s+'</span><small>'+r.d+'</small></span><b>'+r.t+'</b><span class="rvn">'+r.n+'</span></a>';
+      }).join('')+'</div>';
+    }else{
+      h += '<p class="rvempty">目前沒找到近兩年內、內容合適的文章，可以用下方的搜尋看看。</p>';
+    }
+    h += '<div class="rvmore"><span>找更多：</span>'+
+      '<a href="https://www.dcard.tw/search?query='+q+'" target="_blank" rel="noopener noreferrer">Dcard</a>'+
+      '<a href="https://www.threads.com/search?q='+q+'" target="_blank" rel="noopener noreferrer">Threads</a>'+
+      '<a href="https://www.google.com/search?q='+encodeURIComponent('site:instagram.com '+kw)+'" target="_blank" rel="noopener noreferrer">Instagram</a></div>'+
+      '<p class="mapnote">外部連結，內容為作者個人看法與當時狀況，實際情形請以現場及最新公告為準。</p></div>';
+    return h;
+  }
+  function renderSheet(d, k){
+    var day = DAYS[d], s = day.stops[k], x = (DETAIL[d] && DETAIL[d][k]) || {};
+    var tags = (s.tags||[]).map(function(t){ return '<span class="tag '+(TAGC[t]||'aqua')+'">'+t+'</span>'; }).join('');
+    var maps = x.g && x.g.length ? x.g : [[s.name, s.name]];
+    var tips = (x.t||[]).slice(); if(s.note && tips.indexOf(s.note)<0) tips.unshift(s.note);
+    $('sh-day').textContent = 'DAY '+(d+1)+' ・ 第 '+(k+1)+' / '+day.stops.length+' 站';
+    var h = '<div class="thead" style="margin-bottom:2px">'+(s.t?'<span class="time">'+s.t+'</span>':'')+tags+(s.must?'<span class="must-badge">'+STARB+'必去</span>':'')+'</div>'+
+      '<h3 id="sh-title">'+s.name+'</h3>'+
+      (x.m||[s.desc]).map(function(t){ return '<p class="m">'+t+'</p>'; }).join('');
+    if(x.p && x.p.length) h += '<div class="sh-sec"><h4><i></i>看點</h4><ul>'+x.p.map(function(t){ return '<li>'+t+'</li>'; }).join('')+'</ul></div>';
+    if(tips.length) h += '<div class="sh-sec tip"><h4><i></i>小提醒</h4><ul>'+tips.map(function(t){ return '<li>'+t+'</li>'; }).join('')+'</ul></div>';
+    h += extraHtml(d+'-'+k);
+    h += reviewsHtml(d+'-'+k, s.name.split(/[（(]/)[0]);
+    h += '<div class="maps">'+maps.map(function(m){
+      return '<a class="mapbtn" href="'+mapUrl(m[1])+'" target="_blank" rel="noopener noreferrer">'+PIN+'<span>'+(maps.length>1?'Google 地圖：':'在 Google 地圖開啟：')+m[0]+'</span></a>';
+    }).join('')+'</div><p class="mapnote">地圖為地點關鍵字搜尋，實際停靠位置以當日領隊安排為準。</p>'+
+    '<div class="sh-nav"><button type="button" id="sh-prev"'+(k===0?' disabled':'')+'>‹ 上一站</button><button type="button" id="sh-next"'+(k===day.stops.length-1?' disabled':'')+'>下一站 ›</button></div>';
+    sbody.innerHTML = sceneHtml(d+'-'+k)+h;
+    sheet.scrollTop = 0;
+    sD = d; sK = k; sMode = 'day';
+  }
+  function openSheet(d, k, card){
+    sCard = card || null;
+    renderSheet(d, k);
+    swrap.hidden = false;
+    document.documentElement.style.overflow = 'hidden';
+    $('sh-x').focus();
+  }
+  function closeSheet(){
+    swrap.hidden = true;
+    document.documentElement.style.overflow = '';
+    if(sCard && document.body.contains(sCard)) sCard.focus();
+    sCard = null;
+  }
+  panel.addEventListener('click', function(e){
+    var c = e.target.closest('.tcard[data-k]'); if(!c) return;
+    openSheet(cur, +c.dataset.k, c);
+  });
+  panel.addEventListener('keydown', function(e){
+    if(e.key!=='Enter' && e.key!==' ') return;
+    var c = e.target.closest('.tcard[data-k]'); if(!c || e.target!==c) return;
+    e.preventDefault(); openSheet(cur, +c.dataset.k, c);
+  });
+  sbody.addEventListener('click', function(e){
+    var total = sMode==='hotel' ? STAYS[sD].names.length : DAYS[sD].stops.length;
+    var go = function(n){ if(sMode==='hotel') renderHotel(sD, n); else renderSheet(sD, n); };
+    if(e.target.closest('#sh-prev') && sK>0){ go(sK-1); }
+    else if(e.target.closest('#sh-next') && sK<total-1){ go(sK+1); }
+  });
+  panel.addEventListener('click', function(e){
+    var c = e.target.closest('[data-open]'); if(!c) return;
+    openSheet(cur, +c.dataset.open, c);
+  });
+  $('sh-x').addEventListener('click', closeSheet);
+  swrap.addEventListener('click', function(e){ if(e.target===swrap) closeSheet(); });
+  document.addEventListener('keydown', function(e){
+    if(swrap.hidden) return;
+    if(e.key==='Escape'){ closeSheet(); return; }
+    if(e.key==='Tab'){
+      var f = Array.prototype.slice.call(sheet.querySelectorAll('button:not([disabled]),a[href]'));
+      if(!f.length) return;
+      var i = f.indexOf(document.activeElement);
+      if(e.shiftKey && i<=0){ e.preventDefault(); f[f.length-1].focus(); }
+      else if(!e.shiftKey && i===f.length-1){ e.preventDefault(); f[0].focus(); }
+    }
+  });
+  /* 切換分頁或日期時關閉視窗 */
+  tabs.addEventListener('click', function(){ if(!swrap.hidden) closeSheet(); });
+
+  /* ---------- 住宿詳細介紹 ---------- */
+  var NOINFO = "資料未提供此飯店的詳細介紹，以下為住宿安排資訊；實際入住飯店以出發前通知為準。";
+  var HOTEL = {
+    "湯之川觀光溫泉飯店":{ m:["位於函館湯之川溫泉區，離函館空港與市區都很近，抵達當晚可直接泡湯休息。湯之川溫泉是函館最知名的溫泉區。","晚餐為飯店豪華總匯自助餐；隔天早餐後前往函館朝市。", NOINFO], p:["第 1 晚住宿（11/04）","晚餐：飯店豪華總匯自助餐"], t:["入浴前先洗淨身體，毛巾不放入湯中"], g:[["湯之川觀光溫泉飯店","湯の川温泉 観光ホテル"]] },
+    "登別石水亭溫泉飯店":{ m:["被大自然環繞的石水亭，歷史悠久，位於著名的登別溫泉區，可享受多姿多彩的登別溫泉。","飯店設施多樣，服務周到，再講究的客人也能得到滿意的服務，是放鬆身心的好選擇。登別溫泉為植物性湯種，泡起來皮膚滑嫩，有「美人湯」之稱。"], p:["第 2 晚住宿（11/05）","位於登別溫泉區，被大自然環繞","多種泉質的登別溫泉","晚餐：飯店豪華總匯自助餐"], t:["晚餐後可自由前往極樂通商店街與閻魔堂魔王變臉秀","溫泉街夜晚氣溫低，記得多穿衣物"], g:[["登別石水亭","登別石水亭"]] },
+    "洞爺湖畔亭溫泉飯店":{ m:["位於洞爺湖溫泉區的飯店，可沿著湖畔輕鬆散步，感受夜晚寧靜的湖景，夜裡泡湯還有機會抬頭看星空。", NOINFO], p:["第 3 晚住宿（11/06）","洞爺湖畔散策、星空溫泉","晚餐：飯店豪華總匯自助餐"], t:["洞爺夢幻彩燈隧道若因飯店客滿改住他區，將不前往","湖邊夜晚較冷，散步請多穿一件"], g:[["洞爺湖畔亭","洞爺湖畔亭"]] },
+    "ビスタ札幌大通":{ m:["連住兩晚的札幌住宿，位於札幌大通一帶，市中心逛街、用餐都方便，很適合第 4 晚吃完螃蟹後與第 5 晚自由夜訪。", NOINFO], p:["第 4、5 晚住宿（11/07、11/08）","位於札幌大通地區，交通與逛街方便","連住兩晚，不必每天換飯店打包"], t:["飯店名稱為日文原名，搜尋地圖時請使用此名稱"], g:[["ビスタ札幌大通","ビスタ札幌大通"]] }
+  };
+  function renderHotel(n, i){
+    var st = STAYS[n], name = st.names[i], x = HOTEL[name] || {m:[NOINFO], g:[[name, name]]};
+    $('sh-day').textContent = '第 '+st.night+' 晚 ・ '+st.date+' ・ '+st.city;
+    var tips = x.t || [];
+    var h = '<div class="thead" style="margin-bottom:2px"><span class="tag '+(st.icon==='onsen'?'aqua':'yellow')+'">'+st.tag+'</span>'+(st.names.length>1?'<span class="time">候選 '+(i+1)+' / '+st.names.length+'</span>':'')+'</div>'+
+      '<h3 id="sh-title">'+name+'</h3>'+(x.m||[]).map(function(t){ return '<p class="m">'+t+'</p>'; }).join('');
+    if(x.p && x.p.length) h += '<div class="sh-sec"><h4><i></i>特色</h4><ul>'+x.p.map(function(t){ return '<li>'+t+'</li>'; }).join('')+'</ul></div>';
+    if(tips.length) h += '<div class="sh-sec tip"><h4><i></i>小提醒</h4><ul>'+tips.map(function(t){ return '<li>'+t+'</li>'; }).join('')+'</ul></div>';
+    h += reviewsHtml('h'+n, name);
+    h += '<div class="maps">'+(x.g||[]).map(function(m){
+      return '<a class="mapbtn" href="'+mapUrl(m[1])+'" target="_blank" rel="noopener noreferrer">'+PIN+'<span>在 Google 地圖開啟：'+m[0]+'</span></a>';
+    }).join('')+'</div><p class="mapnote">地圖為飯店名稱關鍵字搜尋，請以實際入住飯店為準。</p>'+
+    (st.names.length>1?'<div class="sh-nav"><button type="button" id="sh-prev"'+(i===0?' disabled':'')+'>‹ 上一間</button><button type="button" id="sh-next"'+(i===st.names.length-1?' disabled':'')+'>下一間 ›</button></div>':'');
+    sbody.innerHTML = h; sheet.scrollTop = 0;
+    sD = n; sK = i; sMode = 'hotel';
+  }
+  $('stays').addEventListener('click', function(e){
+    var b = e.target.closest('.hotelbtn'); if(!b) return;
+    sCard = b; renderHotel(+b.dataset.n, +b.dataset.i);
+    swrap.hidden = false; document.documentElement.style.overflow = 'hidden'; $('sh-x').focus();
+  });
+
+    /* ---------- 必買排行榜 ---------- */
+  var BKEY = 'hk-trip-buy-v1', bsaved = {};
+  try{ bsaved = JSON.parse(localStorage.getItem(BKEY)||'{}') || {}; }catch(e){ bsaved = {}; }
+  function bpersist(){ try{ localStorage.setItem(BKEY, JSON.stringify(bsaved)); }catch(e){} }
+  function renderRank(){
+    var c = 0; RANKA.forEach(function(r,i){ if(bsaved['a'+i]) c++; });
+    $('rank-in').innerHTML =
+      '<div class="rk-top"><span id="rk-cnt">已勾選 '+c+' / '+RANKA.length+' 項</span><button type="button" class="reset" id="rk-reset">全部取消</button></div>'+
+      '<h4 class="rk-h">A 級：最推薦優先購買</h4><div class="tlist">'+RANKA.map(function(r,i){
+        return '<label class="tcheck rk"><input type="checkbox" data-a="'+i+'"'+(bsaved['a'+i]?' checked':'')+'><span class="box">'+CHECK+'</span><span class="txt"><b>'+r[0]+'</b><span class="rk-w">'+r[1]+'</span><span class="rk-n">'+r[2]+'</span></span></label>';
+      }).join('')+'</div>'+
+      '<h4 class="rk-h">B 級：看個人需求購買</h4><div class="rkb">'+RANKB.map(function(r){
+        return '<div class="rkbi"><b>'+r[0]+'</b><span>'+r[1]+'</span><small>'+r[2]+'</small></div>';
+      }).join('')+'</div>';
+  }
+  $('rank-in').addEventListener('change', function(e){
+    var i = e.target.dataset && e.target.dataset.a; if(i==null) return;
+    bsaved['a'+i] = e.target.checked; bpersist();
+    var c = 0; RANKA.forEach(function(r,j){ if(bsaved['a'+j]) c++; });
+    $('rk-cnt').textContent = '已勾選 '+c+' / '+RANKA.length+' 項';
+  });
+  $('rank-in').addEventListener('click', function(e){
+    if(!e.target.closest('#rk-reset')) return;
+    bsaved = {}; bpersist(); renderRank();
+  });
+  renderRank();
+
+  /* ---------- 倒數 ---------- */
+  var START = new Date('2026-11-04T12:00:00+08:00').getTime();
+  var END = new Date('2026-11-09T19:05:00+08:00').getTime();
+  function tick(){
+    var now = Date.now(), diff = START - now;
+    var title = $('cd-title'), msg = $('cd-msg');
+    if(diff > 0){
+      var s = Math.floor(diff/1000);
+      $('cd-d').textContent = Math.floor(s/86400);
+      $('cd-h').textContent = pad(Math.floor(s%86400/3600));
+      $('cd-m').textContent = pad(Math.floor(s%3600/60));
+      $('cd-s').textContent = pad(s%60);
+      title.textContent = '距離出發還有';
+      msg.textContent = '11/04 09:30 桃園機場集合，12:00 起飛，行李記得提早打包！';
+    }else if(now <= END){
+      var day = Math.min(6, Math.floor((now - (START - 12*3600000))/86400000)+1);
+      $('cd-d').textContent = '0'; $('cd-h').textContent = '00'; $('cd-m').textContent = '00'; $('cd-s').textContent = '00';
+      title.textContent = '旅程進行中';
+      msg.textContent = '現在是第 '+day+' 天，玩得開心！';
+    }else{
+      $('cd-d').textContent = '0'; $('cd-h').textContent = '00'; $('cd-m').textContent = '00'; $('cd-s').textContent = '00';
+      title.textContent = '旅程結束';
+      msg.textContent = '歡迎回家，期待下一次出發。';
+    }
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* ---------- 待辦（可新增／刪除） ---------- */
+  var KEY = 'hk-trip-todos-v2', list = null;
+  var BASE = ['出發前','行李','旅途中'], OTHER = '__other__';
+  function uid(){ return 'i'+Date.now().toString(36)+Math.random().toString(36).slice(2,6); }
+  function esc(s){ return String(s).replace(/[&<>"']/g,function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  try{ var raw = JSON.parse(localStorage.getItem(KEY)); if(Array.isArray(raw)) list = raw; }catch(e){}
+  if(!list){
+    list = [];
+    TODOS.forEach(function(g){ g.items.forEach(function(t){ list.push({id:uid(), g:g.g, t:t, d:false}); }); });
+  }
+  function persist(){ try{ localStorage.setItem(KEY, JSON.stringify(list)); }catch(e){} }
+  var SEEDKEY = 'hk-trip-seed-3', seeded = false;
+  try{ seeded = !!localStorage.getItem(SEEDKEY); }catch(e){}
+  if(!seeded){
+    list = list.filter(function(x){ return x.t!=='確認護照效期（建議 6 個月以上）' && x.t!=='溫泉用小毛巾與防水袋（洞爺湖、登別）'; });
+    var have = list.map(function(x){ return x.t; });
+    var ADD = ['護照效期須在 2027/05/11 之後','11/04 09:30 桃園機場第一航廈星宇航空 7 號團體櫃台集合','役男需先辦好短期出境核准（如適用）','溫泉用小毛巾與防水袋（登別、洞爺湖）','準備小費（參考每人每天 NT$300）'];
+    TODOS.forEach(function(g){ g.items.forEach(function(t){ if(have.indexOf(t)<0 && ADD.indexOf(t)>=0) list.push({id:uid(), g:g.g, t:t, d:false}); }); });
+    persist(); try{ localStorage.setItem(SEEDKEY,'1'); }catch(e){}
+  }
+  var DEL = '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5 L15 15 M15 5 L5 15" class="s nf" stroke-width="3.2"/></svg>';
+
+  function toggleCustom(){
+    var on = $('add-g').value === OTHER;
+    $('add-c-row').hidden = !on;
+    if(on) $('add-c').focus();
+  }
+  function renderSelect(want){
+    var sel = $('add-g'), prev = want || sel.value || BASE[0];
+    var extra = [];
+    list.forEach(function(it){ if(BASE.indexOf(it.g)<0 && extra.indexOf(it.g)<0) extra.push(it.g); });
+    var all = BASE.concat(extra);
+    sel.innerHTML = all.map(function(g){ return '<option value="'+esc(g)+'">'+esc(g)+'</option>'; }).join('') +
+      '<option value="'+OTHER+'">自行輸入…</option>';
+    sel.value = (all.indexOf(prev)>=0 || prev===OTHER) ? prev : BASE[0];
+    $('add-c-row').hidden = sel.value !== OTHER;
+  }
+  function renderTodos(popId, wantGroup){
+    var groups = [], map = {};
+    list.forEach(function(it){ if(!map[it.g]){ map[it.g] = []; groups.push(it.g); } map[it.g].push(it); });
+    $('todos').innerHTML = groups.length ? groups.map(function(g){
+      return '<div class="tgroup"><h3>'+esc(g)+'</h3><div class="tlist">'+map[g].map(function(it){
+        return '<div class="titem'+(it.id===popId?' pop':'')+'"><label class="tcheck"><input type="checkbox" data-id="'+it.id+'"'+(it.d?' checked':'')+'><span class="box">'+CHECK+'</span><span class="txt">'+esc(it.t)+'</span></label>'+
+          '<button type="button" class="del" data-del="'+it.id+'" aria-label="刪除：'+esc(it.t)+'">'+DEL+'</button></div>';
+      }).join('')+'</div></div>';
+    }).join('') : '<p class="empty">目前沒有待辦事項，在上方新增一個吧！</p>';
+    renderSelect(wantGroup);
+  }
+  $('add-g').addEventListener('change', toggleCustom);
+  $('todos').addEventListener('change', function(e){
+    var id = e.target.dataset && e.target.dataset.id; if(!id) return;
+    list.forEach(function(x){ if(x.id===id) x.d = e.target.checked; });
+    persist();
+  });
+
+  /* 刪除確認 */
+  var pendingId = null, lastBtn = null, modal = $('modal');
+  function openModal(id, btn){
+    var it = list.filter(function(x){ return x.id===id; })[0]; if(!it) return;
+    pendingId = id; lastBtn = btn;
+    $('m-txt').textContent = it.t;
+    modal.hidden = false;
+    $('m-no').focus();
+  }
+  function closeModal(){ modal.hidden = true; pendingId = null; if(lastBtn && document.body.contains(lastBtn)) lastBtn.focus(); lastBtn = null; }
+  $('todos').addEventListener('click', function(e){
+    var b = e.target.closest('.del'); if(!b) return;
+    openModal(b.dataset.del, b);
+  });
+  $('m-no').addEventListener('click', closeModal);
+  $('m-yes').addEventListener('click', function(){
+    var id = pendingId;
+    modal.hidden = true; pendingId = null; lastBtn = null;
+    list = list.filter(function(x){ return x.id!==id; });
+    persist(); renderTodos();
+  });
+  modal.addEventListener('click', function(e){ if(e.target===modal) closeModal(); });
+  document.addEventListener('keydown', function(e){
+    if(modal.hidden) return;
+    if(e.key==='Escape'){ closeModal(); }
+    else if(e.key==='Tab'){
+      var f = [$('m-no'), $('m-yes')], i = f.indexOf(document.activeElement);
+      e.preventDefault();
+      f[(i + (e.shiftKey?-1:1) + 2) % 2].focus();
+    }
+  });
+
+  $('addform').addEventListener('submit', function(e){
+    e.preventDefault();
+    var t = $('add-t').value.trim(); if(!t) return;
+    var g = $('add-g').value;
+    if(g === OTHER){
+      g = $('add-c').value.trim();
+      if(!g){ $('add-c').focus(); return; }
+    }
+    var it = {id:uid(), g:g, t:t, d:false};
+    list.push(it); persist();
+    $('add-c').value = '';
+    renderTodos(it.id, g);
+    $('add-t').value = ''; $('add-t').focus();
+  });
+  $('reset').addEventListener('click', function(){
+    list.forEach(function(x){ x.d = false; });
+    persist(); renderTodos();
+  });
+  renderTodos();
+
+  /* ---------- 住宿 ---------- */
+  $('stays').innerHTML = STAYS.map(function(s,i){
+    return '<article class="stay"><svg class="on" aria-hidden="true"><use href="#'+s.icon+'"/></svg>'+
+      '<div class="stay-top"><span class="night">第 '+s.night+' 晚 ・ '+s.date+'</span></div>'+
+      '<h3 class="city">'+s.city+'</h3><ul>'+s.names.map(function(x,j){return '<li><button type="button" class="hotelbtn" data-n="'+i+'" data-i="'+j+'" aria-haspopup="dialog"><span>'+x+'</span><small>介紹＋地圖 ›</small></button></li>'}).join('')+'</ul>'+
+      '<p>'+s.desc+'</p><span class="tag">'+s.tag+'</span></article>';
+  }).join('');
+
+  /* ---------- 分頁切換（一次只顯示一個區塊） ---------- */
+  var VIEWS = ['home','flight','itinerary','todo','stay'];
+  var navLinks = document.querySelectorAll('.nav a[href^="#"]');
+  function show(id, animate){
+    if(VIEWS.indexOf(id) < 0) id = 'home';
+    VIEWS.forEach(function(v){
+      var el = $(v), on = v===id;
+      el.hidden = !on;
+      el.classList.remove('vin');
+      if(on && animate){ void el.offsetWidth; el.classList.add('vin'); }
+    });
+    navLinks.forEach(function(a){
+      var on = a.getAttribute('href')==='#'+id;
+      if(a.classList.contains('brand')) return;
+      a.classList.toggle('on', on);
+      if(on) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
+    });
+    var cur = document.querySelector('.links a.on');
+    if(cur && cur.scrollIntoView){ try{ cur.scrollIntoView({inline:'center',block:'nearest',behavior:'auto'}); }catch(e){} }
+    window.scrollTo({top:0, behavior:'auto'});
+  }
+  navLinks.forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      var id = a.getAttribute('href').slice(1);
+      try{ history.pushState(null,'','#'+id); }catch(err){}
+      show(id, true);
+    });
+  });
+  window.addEventListener('popstate', function(){ show(location.hash.slice(1)||'home', true); });
+  show(location.hash.slice(1)||'home', false);
+
+  /* ---------- 預設選到今天（旅程期間）或第 1 天 ---------- */
+  var now = Date.now(), start = 0;
+  if(now > START && now <= END){
+    start = Math.max(0, Math.min(5, Math.floor((now - (START - 12*3600000))/86400000)));
+  }
+  selectDay(start, false, false);
+})();
+</script>
+</body>
+</html>
+
+</body></html>
